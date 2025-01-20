@@ -1,10 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useAccount } from 'wagmi';
 import { motion } from 'framer-motion';
-import { useLessons, useProfile } from '@/hooks/useContracts';
-import { Lesson } from '@/types/contracts';
 import LessonCard from '@/components/lessons/LessonCard';
 import LoadingSkeleton from '@/components/ui/LoadingSkeleton';
 import {
@@ -13,50 +10,53 @@ import {
   MagnifyingGlassIcon,
 } from '@heroicons/react/24/outline';
 
+interface Lesson {
+  id: number;
+  title: string;
+  description: string;
+  difficulty: number;
+  points: number;
+  createdAt: Date;
+}
+
 type SortOption = 'newest' | 'oldest' | 'points-high' | 'points-low';
 type FilterOption = 'all' | '1' | '2' | '3' | 'completed' | 'incomplete';
 
+// Mock data for development
+const MOCK_LESSONS: Lesson[] = [
+  {
+    id: 1,
+    title: "Basic Greetings",
+    description: "Learn common greetings and introductions",
+    difficulty: 1,
+    points: 100,
+    createdAt: new Date("2024-02-01")
+  },
+  {
+    id: 2,
+    title: "Present Tense",
+    description: "Master the present tense in everyday conversations",
+    difficulty: 2,
+    points: 150,
+    createdAt: new Date("2024-02-05")
+  },
+  {
+    id: 3,
+    title: "Advanced Grammar",
+    description: "Complex grammar structures and usage",
+    difficulty: 3,
+    points: 200,
+    createdAt: new Date("2024-02-10")
+  }
+];
+
 export default function LessonsPage() {
-  const { isConnected } = useAccount();
-  const { totalLessons, getLessonDetails } = useLessons();
-  const { profile } = useProfile();
-  const [lessons, setLessons] = useState<Lesson[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [lessons] = useState<Lesson[]>(MOCK_LESSONS);
+  const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [filterBy, setFilterBy] = useState<FilterOption>('all');
-  const [completedLessons, setCompletedLessons] = useState<Set<number>>(new Set());
-
-  useEffect(() => {
-    const fetchLessons = async () => {
-      if (!isConnected) return;
-      
-      try {
-        const lessonPromises = Array.from({ length: totalLessons }, (_, i) =>
-          getLessonDetails(i).then(lesson => ({ ...lesson, id: i }))
-        );
-        const fetchedLessons = await Promise.all(lessonPromises);
-        setLessons(fetchedLessons);
-
-        // Get completed lessons
-        if (profile) {
-          const completedPromises = fetchedLessons.map((_, index) =>
-            useProfile().hasCompletedLesson(profile.address, index)
-          );
-          const completed = await Promise.all(completedPromises);
-          setCompletedLessons(new Set(
-            completed.map((isCompleted, index) => isCompleted ? index : -1).filter(i => i !== -1)
-          ));
-        }
-      } catch (error) {
-        console.error('Error fetching lessons:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchLessons();
-  }, [isConnected, totalLessons, getLessonDetails, profile]);
+  const [completedLessons] = useState<Set<number>>(new Set());
 
   const filteredAndSortedLessons = lessons
     .filter(lesson => {
@@ -68,29 +68,21 @@ export default function LessonsPage() {
     .sort((a, b) => {
       switch (sortBy) {
         case 'newest':
-          return Number(b.createdAt) - Number(a.createdAt);
+          return b.createdAt.getTime() - a.createdAt.getTime();
         case 'oldest':
-          return Number(a.createdAt) - Number(b.createdAt);
+          return a.createdAt.getTime() - b.createdAt.getTime();
         case 'points-high':
-          return (b.basePoints * b.difficulty) - (a.basePoints * a.difficulty);
+          return b.points - a.points;
         case 'points-low':
-          return (a.basePoints * a.difficulty) - (b.basePoints * b.difficulty);
+          return a.points - b.points;
         default:
           return 0;
       }
     })
     .filter(lesson =>
-      lesson.contentHash.toLowerCase().includes(searchTerm.toLowerCase())
+      lesson.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      lesson.description.toLowerCase().includes(searchTerm.toLowerCase())
     );
-
-  if (!isConnected) {
-    return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4">Connect Your Wallet</h1>
-        <p className="text-gray-400">Please connect your wallet to view lessons</p>
-      </div>
-    );
-  }
 
   return (
     <div className="container mx-auto px-4 py-16">
@@ -99,7 +91,7 @@ export default function LessonsPage() {
         <div>
           <h1 className="text-3xl font-bold mb-2">Available Lessons</h1>
           <p className="text-gray-400">
-            Completed: {completedLessons.size} / {totalLessons}
+            Completed: {completedLessons.size} / {lessons.length}
           </p>
         </div>
 

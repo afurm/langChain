@@ -1,88 +1,66 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { LessonContent as LessonContentType } from '@/lib/openai';
-import { useProgress } from '@/hooks/useProgress';
-import ProgressTracker from './ProgressTracker';
-import { ChevronRightIcon } from '@heroicons/react/24/outline';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
-interface LessonContentProps {
-  content: LessonContentType;
-  onStartQuiz: () => void;
+interface Section {
+  title: string;
+  content: string;
 }
 
-export default function LessonContent({ content, onStartQuiz }: LessonContentProps) {
-  const [currentSection, setCurrentSection] = useState(0);
-  const sections = content.content.split('\n\n## ').map((section, index) => 
-    index === 0 ? section : `## ${section}`
-  );
+export interface LessonContent {
+  title: string;
+  sections: Section[];
+  quiz: {
+    question: string;
+    options: string[];
+    correctIndex: number;
+  }[];
+}
 
-  const { currentStep, timeSpent, isComplete, nextStep } = useProgress({
-    totalSteps: sections.length,
-    onProgressComplete: () => {
-      // Add a small delay before showing the quiz
-      setTimeout(onStartQuiz, 1000);
-    },
-  });
+interface LessonContentProps {
+  content: LessonContent;
+  currentStep: number;
+  onNext: () => void;
+}
 
-  const handleNext = () => {
-    nextStep();
-    setCurrentSection(prev => Math.min(prev + 1, sections.length - 1));
-  };
+export default function LessonContent({
+  content,
+  currentStep,
+  onNext,
+}: LessonContentProps) {
+  const currentSection = content.sections[currentStep];
+  const isLastSection = currentStep === content.sections.length - 1;
 
   return (
-    <div className="space-y-6">
-      <ProgressTracker
-        currentStep={currentStep}
-        totalSteps={sections.length}
-        timeSpent={timeSpent}
-      />
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6"
+    >
+      <div className="prose prose-invert max-w-none">
+        <motion.div
+          key={currentStep}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -20 }}
+          className="space-y-4"
+        >
+          <h2 className="text-2xl font-bold">{currentSection.title}</h2>
+          <ReactMarkdown>{currentSection.content}</ReactMarkdown>
+        </motion.div>
+      </div>
 
-      <motion.div
-        key={currentSection}
-        initial={{ opacity: 0, x: 20 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -20 }}
-        className="card"
-      >
-        <div className="prose prose-invert max-w-none">
-          <ReactMarkdown>{sections[currentSection]}</ReactMarkdown>
-        </div>
-
-        {currentSection < sections.length - 1 && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="mt-8 flex justify-end"
-          >
-            <button
-              onClick={handleNext}
-              className="btn-primary flex items-center gap-2"
-            >
-              Next Section
-              <ChevronRightIcon className="w-5 h-5" />
-            </button>
-          </motion.div>
-        )}
-
-        {currentSection === sections.length - 1 && !isComplete && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="mt-8 flex justify-end"
-          >
-            <button
-              onClick={nextStep}
-              className="btn-primary flex items-center gap-2"
-            >
-              Start Quiz
-              <ChevronRightIcon className="w-5 h-5" />
-            </button>
-          </motion.div>
-        )}
-      </motion.div>
-    </div>
+      <div className="mt-8 flex justify-end">
+        <button
+          onClick={onNext}
+          className="flex items-center space-x-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-medium transition-colors"
+        >
+          <span>{isLastSection ? 'Start Quiz' : 'Next'}</span>
+          <ArrowRightIcon className="w-5 h-5" />
+        </button>
+      </div>
+    </motion.div>
   );
 } 

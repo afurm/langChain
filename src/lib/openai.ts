@@ -4,9 +4,14 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-export interface LessonContent {
+interface Section {
   title: string;
   content: string;
+}
+
+export interface LessonContent {
+  title: string;
+  sections: Section[];
   quiz: {
     question: string;
     options: string[];
@@ -15,73 +20,67 @@ export interface LessonContent {
 }
 
 export async function generateLesson(
-  difficulty: 1 | 2 | 3,
-  topic?: string
+  difficulty: number,
+  topic: string
 ): Promise<LessonContent> {
-  const difficultyLevel = ['beginner', 'intermediate', 'advanced'][difficulty - 1];
-  const prompt = `Create an English language learning lesson for ${difficultyLevel} level students.
-${topic ? `The lesson should focus on: ${topic}` : ''}
-
-The response should be in JSON format with the following structure:
-{
-  "title": "Lesson title",
-  "content": "Main lesson content with examples and explanations",
-  "quiz": [
+  try {
+    const prompt = `Create a language learning lesson about "${topic}" at difficulty level ${difficulty} (1-5).
+    The response should be in JSON format with the following structure:
     {
-      "question": "Quiz question",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "correctIndex": 0
+      "title": "Lesson title",
+      "sections": [
+        {
+          "title": "Section title",
+          "content": "Section content in markdown format"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Question text",
+          "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+          "correctIndex": 0
+        }
+      ]
     }
-  ]
-}
+    Include 3-5 sections and 3-5 quiz questions.`;
 
-The content should be engaging and include:
-- Clear explanations
-- Practical examples
-- Common usage scenarios
-- Tips for remembering
-Generate 3 quiz questions to test understanding.`;
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.7,
+    });
 
-  const completion = await openai.chat.completions.create({
-    messages: [{ role: "user", content: prompt }],
-    model: "gpt-4-turbo-preview",
-    response_format: { type: "json_object" },
-  });
-
-  const response = completion.choices[0].message.content;
-  if (!response) {
+    const content = JSON.parse(response.choices[0].message.content || '{}');
+    return content;
+  } catch (error) {
+    console.error('Error generating lesson:', error);
     throw new Error('Failed to generate lesson content');
   }
-
-  return JSON.parse(response) as LessonContent;
 }
 
 export async function generateFeedback(
-  answer: string,
+  userAnswer: string,
   correctAnswer: string,
-  difficulty: 1 | 2 | 3
+  difficulty: number
 ): Promise<string> {
-  const difficultyLevel = ['beginner', 'intermediate', 'advanced'][difficulty - 1];
-  
-  const completion = await openai.chat.completions.create({
-    messages: [
-      {
-        role: "user",
-        content: `As an English language teacher, provide feedback for a ${difficultyLevel} level student.
-Student's answer: "${answer}"
-Correct answer: "${correctAnswer}"
+  try {
+    const prompt = `The user answered "${userAnswer}" to a question where the correct answer was "${correctAnswer}".
+    The difficulty level is ${difficulty} (1-5).
+    Provide brief, encouraging feedback explaining why the answer was ${
+      userAnswer === correctAnswer ? 'correct' : 'incorrect'
+    }.
+    Keep the response under 100 words.`;
 
-Provide constructive feedback that:
-1. Acknowledges what was done correctly
-2. Identifies any mistakes
-3. Explains why the correct answer is better
-4. Gives a helpful tip for improvement
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.7,
+      max_tokens: 100,
+    });
 
-Keep the response concise and encouraging.`
-      }
-    ],
-    model: "gpt-4-turbo-preview",
-  });
-
-  return completion.choices[0].message.content || 'No feedback available';
+    return response.choices[0].message.content || '';
+  } catch (error) {
+    console.error('Error generating feedback:', error);
+    throw new Error('Failed to generate feedback');
+  }
 } 

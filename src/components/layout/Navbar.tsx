@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ConnectKitButton } from 'connectkit';
 import { useAccount } from 'wagmi';
-import { useProfile } from '@/hooks/useContracts';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
@@ -15,7 +14,6 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const { isConnected } = useAccount();
-  const { profile } = useProfile();
 
   useEffect(() => {
     setMounted(true);
