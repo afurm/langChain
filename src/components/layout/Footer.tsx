@@ -21,17 +21,17 @@ export default function Footer() {
     {
       title: 'Resources',
       links: [
-        { label: 'Documentation', href: '#', icon: DocumentTextIcon },
-        { label: 'FAQs', href: '#', icon: QuestionMarkCircleIcon },
-        { label: 'Community', href: '#', icon: UsersIcon },
+        { label: 'Documentation', href: '/docs', icon: DocumentTextIcon },
+        { label: 'FAQs', href: '/faqs', icon: QuestionMarkCircleIcon },
+        { label: 'Community', href: '/community', icon: UsersIcon },
       ],
     },
     {
       title: 'Connect',
       links: [
-        { label: 'GitHub', href: 'https://github.com', icon: GlobeAltIcon },
-        { label: 'Twitter', href: 'https://twitter.com', icon: GlobeAltIcon },
-        { label: 'Discord', href: 'https://discord.com', icon: GlobeAltIcon },
+        { label: 'GitHub', href: 'https://github.com/yourusername/language-courses-on-chain', icon: GlobeAltIcon },
+        { label: 'Twitter', href: 'https://twitter.com/langchain', icon: GlobeAltIcon },
+        { label: 'Discord', href: 'https://discord.gg/langchain', icon: GlobeAltIcon },
       ],
     },
   ];

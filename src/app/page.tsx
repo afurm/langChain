@@ -174,19 +174,13 @@ export default function Home() {
               variants={item}
               className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-20"
             >
-              {!isConnected ? (
-                <div className="transform hover:scale-105 transition-transform">
-                  <ConnectKitButton />
-                </div>
-              ) : (
-                <Link
-                  href="/lessons"
-                  className="group flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold text-lg transform hover:scale-105 transition-all shadow-lg hover:shadow-blue-500/25"
-                >
-                  Start Learning
-                  <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              )}
+              <Link
+                href="/lessons"
+                className="group flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold text-lg transform hover:scale-105 transition-all shadow-lg hover:shadow-blue-500/25"
+              >
+                Start Learning
+                <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
               <Link
                 href="#features"
                 className="text-gray-300 hover:text-white transition-colors flex items-center gap-2 group font-medium"
@@ -352,19 +346,13 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              {!isConnected ? (
-                <div className="transform hover:scale-105 transition-transform">
-                  <ConnectKitButton />
-                </div>
-              ) : (
-                <Link
-                  href="/lessons"
-                  className="group flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold text-lg transform hover:scale-105 transition-all shadow-lg hover:shadow-blue-500/25"
-                >
-                  Start Learning Now
-                  <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              )}
+              <Link
+                href="/lessons"
+                className="group flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold text-lg transform hover:scale-105 transition-all shadow-lg hover:shadow-blue-500/25"
+              >
+                Start Learning Now
+                <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </div>
           </motion.div>
         </div>
