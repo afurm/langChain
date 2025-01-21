@@ -1,0 +1,1327 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Present Simple: Forms and Uses",
+      "description": "📚 Master the Present Simple tense - the foundation of English grammar!\n\n🎯 In this lesson, you'll learn:\n- How to form positive and negative sentences\n- When to use Present Simple\n- Special rules for he/she/it forms\n- Question formation\n- Time expressions and adverbs of frequency\n\n⭐️ Level: Beginner\n\n⏰ Recommended study time: 2 hours",
+      "language": "English",
+      "difficulty": 1,
+      "points": 100,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Present Simple Form 📝\n\n1. **Positive Form**:\n\na) With I/you/we/they:\n- Use base form of verb\n  * I work in London\n  * You live near me\n  * They study English\n\nb) With he/she/it:\n- Add -s or -es to the base verb\n  * He works in London\n  * She lives near me\n  * It costs a lot\n\n2. **Spelling Rules for he/she/it**:\n\na) Most verbs: add -s\n- work → works\n- play → plays\n- sing → sings\n\nb) Verbs ending in -ss, -sh, -ch, -x, -o: add -es\n- pass → passes\n- wash → washes\n- watch → watches\n- fix → fixes\n- go → goes\n\nc) Consonant + y: change y to i and add -es\n- study → studies\n- try → tries\n- fly → flies\n\nd) Vowel + y: just add -s\n- play → plays\n- buy → buys\n- say → says\n\n💡 **Common Mistakes**:\n- Don't add -s with I/you/we/they\n- Remember to add -s/-es with he/she/it\n- Be careful with irregular spellings"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Present Simple ⏰\n\n1. **Regular Actions and Habits**:\n- I usually wake up at 7:00\n- She always drinks coffee in the morning\n- They play tennis every weekend\n\n2. **Permanent Situations**:\n- I live in London\n- He works for Microsoft\n- They own a restaurant\n\n3. **General Facts and Truths**:\n- The Earth revolves around the Sun\n- Water boils at 100°C\n- Lions eat meat\n\n4. **Timetables and Schedules**:\n- The train leaves at 9:00\n- The shop opens at 10:00\n- The movie starts at 8:00\n\n5. **With State Verbs**:\n- I love chocolate\n- She knows the answer\n- They want a new car\n\n💡 **Important Note**:\nState verbs are not usually used in continuous forms:\n- ❌ I am loving chocolate\n- ✅ I love chocolate"
+        },
+        {
+          "title": "Questions and Negatives",
+          "content": "# Forming Questions and Negatives ❓\n\n1. **Negative Form**:\n\na) With I/you/we/they:\n- do not (don't) + base verb\n  * I don't work on Sundays\n  * You don't live here\n  * They don't like coffee\n\nb) With he/she/it:\n- does not (doesn't) + base verb\n  * He doesn't work here\n  * She doesn't live in London\n  * It doesn't matter\n\n2. **Question Form**:\n\na) Yes/No Questions:\n- Do + I/you/we/they + base verb?\n  * Do you work here?\n  * Do they live in Paris?\n\n- Does + he/she/it + base verb?\n  * Does he work here?\n  * Does she live in London?\n\nb) Wh- Questions:\n- Question word + do/does + subject + base verb?\n  * Where do you work?\n  * What time does she arrive?\n  * Why do they study English?\n\n3. **Short Answers**:\n- Yes, I/you/we/they do\n- No, I/you/we/they don't\n- Yes, he/she/it does\n- No, he/she/it doesn't\n\n💡 **Remember**:\n- Use base form after do/does\n- Don't add -s after does"
+        },
+        {
+          "title": "Time Expressions",
+          "content": "# Time Words and Frequency ⌚\n\n1. **Frequency Adverbs**:\n- always (100%)\n- usually (80%)\n- often (70%)\n- sometimes (50%)\n- rarely/seldom (20%)\n- never (0%)\n\n2. **Position of Frequency Adverbs**:\n\na) Before main verb:\n- I always walk to work\n- She never eats meat\n- They usually arrive late\n\nb) After 'be':\n- I am always tired\n- She is never late\n- They are usually busy\n\n3. **Other Time Expressions**:\n- every day/week/month/year\n- once/twice/three times a week\n- on Mondays/at weekends\n- in the morning/evening\n\n4. **Example Sentences**:\n- I go to the gym twice a week\n- She works every day except Sunday\n- The shop opens at 9:00 every morning\n- They usually have lunch at 1:00\n\n💡 **Usage Tips**:\n- Use these expressions to make your speech more precise\n- Position frequency adverbs correctly\n- Be consistent with time references"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "fill_in_blank_open",
+          "uiStyle": "text_input",
+          "question": "Complete these sentences with the correct form of the verb in brackets:",
+          "items": [
+            {
+              "sentence": "She _____ (work) in a hospital.",
+              "answer": "works",
+              "explanation": "Use -s with third person singular (she/he/it)"
+            },
+            {
+              "sentence": "They _____ (study) English every day.",
+              "answer": "study",
+              "explanation": "No -s with plural subjects (they/we/you)"
+            }
+          ],
+          "hint": "Remember the rules for third person singular (-s/-es)"
+        },
+        {
+          "type": "true_false",
+          "uiStyle": "toggle_buttons",
+          "question": "Identify if these statements about Present Simple are true or false:",
+          "statements": [
+            {
+              "text": "We use Present Simple for habits and routines.",
+              "answer": true,
+              "explanation": "Yes, Present Simple is used for regular actions and habits."
+            },
+            {
+              "text": "We add -s to all verbs with 'he/she/it'.",
+              "answer": false,
+              "explanation": "Some verbs have special rules (e.g., -es for verbs ending in -sh, -ch, -ss, -x)."
+            }
+          ],
+          "hint": "Think about the basic rules of Present Simple usage."
+        },
+        {
+          "type": "error_correction",
+          "uiStyle": "inline_edit",
+          "question": "Find and correct the errors in these sentences:",
+          "sentences": [
+            {
+              "incorrect": "He don't like coffee.",
+              "correct": "He doesn't like coffee",
+              "explanation": "Use 'doesn't' with he/she/it"
+            },
+            {
+              "incorrect": "They works in London.",
+              "correct": "They work in London",
+              "explanation": "Don't use -s with plural subjects"
+            }
+          ],
+          "hint": "Check subject-verb agreement and auxiliary verbs."
+        },
+        {
+          "type": "matching",
+          "uiStyle": "drag_drop",
+          "question": "Match the subjects with their correct verb forms:",
+          "pairs": [
+            {"left": "I", "right": "work"},
+            {"left": "She", "right": "works"},
+            {"left": "They", "right": "work"},
+            {"left": "He", "right": "teaches"}
+          ],
+          "hint": "Remember which subjects need -s ending."
+        },
+        {
+          "type": "sorting",
+          "uiStyle": "drag_drop_columns",
+          "question": "Sort these verbs into the correct category based on their third person singular form:",
+          "categories": {
+            "Add -s": ["run → runs", "play → plays", "sing → sings"],
+            "Add -es": ["watch → watches", "fix → fixes", "pass → passes"],
+            "Change y to i + es": ["study → studies", "try → tries", "fly → flies"]
+          },
+          "hint": "Think about the spelling rules for third person singular."
+        },
+        {
+          "type": "cloze_passage",
+          "uiStyle": "inline_input",
+          "question": "Complete the passage with the correct form of the verbs:",
+          "text": "John usually _____ (wake) up at 7 AM. He _____ (have) breakfast and then _____ (brush) his teeth. His sister _____ (study) at university and _____ (take) the bus every morning.",
+          "answers": ["wakes", "has", "brushes", "studies", "takes"],
+          "hint": "Pay attention to the subject of each verb."
+        },
+        {
+          "type": "reordering",
+          "uiStyle": "drag_drop_horizontal",
+          "question": "Put the words in the correct order to make sentences:",
+          "sentences": [
+            {
+              "words": ["usually", "at", "works", "she", "night"],
+              "answer": "she usually works at night"
+            },
+            {
+              "words": ["don't", "coffee", "like", "I"],
+              "answer": "I don't like coffee"
+            }
+          ],
+          "hint": "Remember: Subject + (frequency adverb) + verb + object"
+        },
+        {
+          "type": "audio_based",
+          "uiStyle": "audio_player",
+          "question": "Listen to the sentences and write what you hear:",
+          "items": [
+            {
+              "audioUrl": "/audio/present-simple-1.mp3",
+              "answer": "She works in a hospital",
+              "transcript": "She works in a hospital"
+            }
+          ],
+          "hint": "Pay attention to the -s endings in third person singular."
+        },
+        {
+          "type": "speaking",
+          "uiStyle": "voice_recorder",
+          "question": "Record yourself answering: What do you usually do on weekends? Use at least 3 Present Simple verbs.",
+          "example": "I usually wake up late. I play video games and meet my friends.",
+          "requirements": [
+            "Use at least 3 different verbs",
+            "Include a frequency adverb",
+            "Speak for at least 30 seconds"
+          ],
+          "hint": "Think about your regular weekend activities."
+        },
+        {
+          "type": "short_answer",
+          "uiStyle": "text_area",
+          "question": "Write 3-4 sentences about your daily routine using Present Simple.",
+          "requirements": [
+            "Use at least 4 different verbs",
+            "Include at least one negative sentence",
+            "Use at least one frequency adverb"
+          ],
+          "example": "I wake up at 7 AM every day. I don't eat breakfast. I usually take the bus to work. My workday starts at 9 AM.",
+          "hint": "Think about what you do every day and how often you do these activities."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Present Continuous: Forms and Uses",
+      "description": "🎬 Master the Present Continuous tense! Essential for describing actions happening now and temporary situations.\n\n🎯 In this lesson, you'll learn:\n- How to form the Present Continuous\n- When to use it vs Present Simple\n- Spelling rules for -ing forms\n- State verbs that don't use continuous\n- Time expressions\n\n⭐️ Level: Beginner\n\n⏰ Recommended study time: 2 hours",
+      "language": "English",
+      "difficulty": 1,
+      "points": 100,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Present Continuous Form 🎬\n\n1. **Basic Structure**:\n- am/is/are + verb-ing\n\n2. **Full Forms**:\n- I am working\n- he/she/it is working\n- we/you/they are working\n\n3. **Contractions**:\n- I'm working\n- he's/she's/it's working\n- we're/you're/they're working\n\n4. **Spelling Rules for -ing**:\n\na) Most verbs: add -ing\n- work → working\n- play → playing\n- help → helping\n\nb) Verbs ending in -e:\n- Remove -e, then add -ing\n  * write → writing\n  * make → making\n  * dance → dancing\n\nc) Short vowel + one consonant:\n- Double the consonant, then add -ing\n  * sit → sitting\n  * run → running\n  * stop → stopping\n\n💡 **Common Mistakes**:\n- Don't forget to use am/is/are\n- Remember spelling rules\n- Don't use with state verbs"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Present Continuous ⏰\n\n1. **Actions Happening Now**:\n- I am writing an email\n- She is cooking dinner\n- They are playing football\n\n2. **Temporary Situations**:\n- I am studying for my exam\n- He is working from home this week\n- They are living with their parents\n\n3. **Changing or Developing Situations**:\n- The weather is getting better\n- The population is growing\n- Your English is improving\n\n4. **Future Arrangements**:\n- I am meeting John tomorrow\n- She is flying to Paris next week\n- We are moving house next month\n\n5. **Annoying Habits (with 'always')**:\n- He is always complaining\n- They are always coming late\n- She is always losing her keys\n\n💡 **Important Note**:\nDon't use Present Continuous with state verbs:\n- ❌ I am knowing the answer\n- ✅ I know the answer"
+        },
+        {
+          "title": "State Verbs",
+          "content": "# Verbs Not Used in Continuous Form 🚫\n\n1. **Mental States**:\n- know, understand, believe\n- remember, forget, recognize\n- think (= believe), mean\n\n2. **Emotions/Feelings**:\n- like, love, hate\n- want, need, prefer\n- wish\n\n3. **Possession**:\n- have (= possess), own, belong\n- possess, contain\n\n4. **Senses**:\n- see, hear, smell\n- taste, sound, seem\n\n💡 **Special Cases**:\n\na) Some verbs can have both state and action meanings:\n- I think (believe) you're right\n- I'm thinking about the problem (= considering)\n\nb) Have can be continuous when it means 'experience':\n- I'm having a great time\n- She's having dinner"
+        },
+        {
+          "title": "Questions and Negatives",
+          "content": "# Forming Questions and Negatives ❓\n\n1. **Negative Form**:\n- am/is/are + not + verb-ing\n\na) Full Forms:\n- I am not working\n- he/she/it is not working\n- we/you/they are not working\n\nb) Contractions:\n- I'm not working\n- he/she/it isn't working\n- we/you/they aren't working\n\n2. **Question Form**:\n\na) Yes/No Questions:\n- Am/Is/Are + subject + verb-ing?\n  * Am I working?\n  * Is she coming?\n  * Are they studying?\n\nb) Wh- Questions:\n- Question word + am/is/are + subject + verb-ing?\n  * What are you doing?\n  * Where is she going?\n  * Why are they waiting?\n\n3. **Short Answers**:\n- Yes, I am / No, I'm not\n- Yes, he/she/it is / No, he/she/it isn't\n- Yes, we/you/they are / No, we/you/they aren't"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'They ____ (study) right now.'",
+          "options": ["study", "studies", "are studying", "is studying"],
+          "correctIndex": 2,
+          "hint": "Use are + verb-ing for actions happening now."
+        },
+        {
+          "type": "spelling",
+          "question": "Choose the correct -ing form: 'write →'",
+          "options": ["writeing", "writing", "writting", "writting"],
+          "correctIndex": 1,
+          "hint": "Remove -e before adding -ing."
+        },
+        {
+          "type": "state_verbs",
+          "question": "Which sentence is CORRECT?",
+          "options": [
+            "I am knowing the answer",
+            "She is wanting coffee",
+            "They are having lunch",
+            "He is understanding the problem"
+          ],
+          "correctIndex": 2,
+          "hint": "'Have' can be continuous when it means 'experience' (like having lunch)."
+        },
+        {
+          "type": "negative",
+          "question": "Make negative: 'She is working.' →",
+          "options": [
+            "She not working",
+            "She isn't working",
+            "She aren't working",
+            "She doesn't working"
+          ],
+          "correctIndex": 1,
+          "hint": "Use isn't (is not) + verb-ing for negative."
+        },
+        {
+          "type": "question",
+          "question": "Form a question: 'They are studying.' →",
+          "options": [
+            "Do they studying?",
+            "Are they studying?",
+            "Is they studying?",
+            "Are they study?"
+          ],
+          "correctIndex": 1,
+          "hint": "Move 'are' to the start for questions."
+        },
+        {
+          "type": "usage",
+          "question": "Which situation uses Present Continuous correctly?",
+          "options": [
+            "I am loving chocolate",
+            "The sun is rising in the east",
+            "She is cooking dinner now",
+            "They are owning a house"
+          ],
+          "correctIndex": 2,
+          "hint": "Present Continuous is for actions happening now."
+        },
+        {
+          "type": "parallel_actions",
+          "question": "Complete: 'While I was reading, she ____.'",
+          "options": [
+            "was watching TV",
+            "watched TV",
+            "is watching TV",
+            "watches TV"
+          ],
+          "correctIndex": 0,
+          "hint": "Use Past Continuous for parallel actions in the past."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Past Simple: Forms and Uses",
+      "description": "⏮️ Master the Past Simple tense! Essential for telling stories and describing completed actions in the past.\n\n🎯 In this lesson, you'll learn:\n- Regular and irregular past tense forms\n- When to use Past Simple\n- Question and negative forms\n- Time expressions for past events\n\n⭐️ Level: Beginner\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 1,
+      "points": 100,
+      "sections": [
+        {
+          "title": "Regular Verbs",
+          "content": "# Regular Past Simple Forms 📝\n\n1. **Basic Rule**:\n- Add -ed to the base form\n  * work → worked\n  * play → played\n  * listen → listened\n\n2. **Spelling Rules**:\n\na) Verbs ending in -e:\n- Add -d only\n  * live → lived\n  * dance → danced\n  * smile → smiled\n\nb) Consonant + y:\n- Change y to i, add -ed\n  * study → studied\n  * try → tried\n  * cry → cried\n\nc) Short vowel + consonant:\n- Double the consonant, add -ed\n  * stop → stopped\n  * plan → planned\n  * prefer → preferred\n\n3. **Pronunciation of -ed**:\n\na) /t/ after unvoiced sounds (p, k, s, ch, sh, f):\n- worked /wɜːkt/\n- stopped /stɒpt/\n- missed /mɪst/\n\nb) /d/ after voiced sounds (b, g, v, m, n, l, r) and vowels:\n- played /pleɪd/\n- cleaned /kliːnd/\n- opened /ˈəʊpənd/\n\nc) /ɪd/ after t and d:\n- wanted /ˈwɒntɪd/\n- needed /ˈniːdɪd/\n- decided /dɪˈsaɪdɪd/"
+        },
+        {
+          "title": "Irregular Verbs",
+          "content": "# Common Irregular Verbs 🔄\n\n1. **Same Form (V1 = V2)**:\n- cut → cut\n- hit → hit\n- put → put\n- cost → cost\n- hurt → hurt\n\n2. **Vowel Change**:\n- begin → began\n- drink → drank\n- sing → sang\n- swim → swam\n- ring → rang\n\n3. **Completely Different**:\n- go → went\n- be → was/were\n- buy → bought\n- teach → taught\n- catch → caught\n\n4. **Common Patterns**:\n\na) -ink → -ank:\n- drink → drank\n- sink → sank\n- shrink → shrank\n\nb) -ow → -ew:\n- grow → grew\n- throw → threw\n- blow → blew\n\nc) -ight → -ought:\n- bring → brought\n- think → thought\n- fight → fought\n\n💡 **Learning Tips**:\n- Learn irregular verbs in groups\n- Practice them in context\n- Create memorable sentences"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Past Simple ⏰\n\n1. **Completed Actions in the Past**:\n- I worked there last year\n- She visited Paris in 2019\n- They bought a house two years ago\n\n2. **Series of Completed Actions**:\n- I got up, had breakfast, and went to work\n- She came home, made dinner, and watched TV\n\n3. **Past States and Habits**:\n- I lived in London for five years\n- He worked at Microsoft in the 1990s\n- They always played tennis on Sundays\n\n4. **Specific Time in the Past**:\n- Yesterday\n- Last week/month/year\n- Two days ago\n- In 2020\n- When I was young\n\n💡 **Important Note**:\nPast Simple is used for:\n- Finished actions\n- Specific time in the past\n- No connection to now"
+        },
+        {
+          "title": "Questions and Negatives",
+          "content": "# Forming Questions and Negatives ❓\n\n1. **Negative Form**:\n- did not (didn't) + base form\n\na) Regular and Irregular Verbs:\n- I didn't work yesterday\n- She didn't go to Paris\n- They didn't have time\n\n2. **Question Form**:\n\na) Yes/No Questions:\n- Did + subject + base form?\n  * Did you work yesterday?\n  * Did she go to Paris?\n  * Did they have time?\n\nb) Wh- Questions:\n- Question word + did + subject + base form?\n  * Where did you go?\n  * What did she buy?\n  * When did they arrive?\n\n3. **Short Answers**:\n- Yes, I/you/he/she/it/we/they did\n- No, I/you/he/she/it/we/they didn't\n\n4. **Special Case: 'be' (was/were)**:\n\na) Negative:\n- I/he/she/it was not (wasn't)\n- you/we/they were not (weren't)\n\nb) Questions:\n- Was I/he/she/it...?\n- Were you/we/they...?\n\n💡 **Remember**:\n- Use base form after 'did/didn't'\n- 'Be' (was/were) doesn't use 'did'"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "regular_form",
+          "question": "Form the past tense: 'They (study) English last year.'",
+          "options": ["studyed", "studied", "studyed", "studyied"],
+          "correctIndex": 1,
+          "hint": "For verbs ending in consonant + y, change y to i and add -ed."
+        },
+        {
+          "type": "irregular",
+          "question": "Choose the correct past form: 'Yesterday she ____ (go) to London.'",
+          "options": ["goed", "gone", "went", "going"],
+          "correctIndex": 2,
+          "hint": "'Go' is an irregular verb - its past form is 'went'."
+        },
+        {
+          "type": "negative",
+          "question": "Make this negative: 'I went to Paris.' →",
+          "options": [
+            "I didn't went to Paris",
+            "I didn't go to Paris",
+            "I no went to Paris",
+            "I not go to Paris"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'didn't' + base form of the verb."
+        },
+        {
+          "type": "question",
+          "question": "Form a question: 'They visited Rome.' →",
+          "options": [
+            "Did they visited Rome?",
+            "Did they visit Rome?",
+            "Do they visited Rome?",
+            "Were they visit Rome?"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'did' + base form of the verb."
+        },
+        {
+          "type": "be_past",
+          "question": "Choose the correct form: 'She ____ happy yesterday.'",
+          "options": ["was", "were", "did be", "did"],
+          "correctIndex": 0,
+          "hint": "Use 'was' with she/he/it in the past."
+        },
+        {
+          "type": "pronunciation",
+          "question": "Which -ed ending is pronounced /ɪd/?",
+          "options": ["worked", "played", "wanted", "missed"],
+          "correctIndex": 2,
+          "hint": "After 't' or 'd' sounds, -ed is pronounced as an extra syllable /ɪd/."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Past Continuous: Forms and Uses",
+      "description": "🎬 Master the Past Continuous tense! Essential for describing ongoing actions in the past and setting scenes in stories.\n\n🎯 In this lesson, you'll learn:\n- How to form the Past Continuous\n- When to use it vs Past Simple\n- Describing interrupted actions\n- Setting scenes in stories\n\n⭐️ Level: Pre-Intermediate\n\n⏰ Recommended study time: 2 hours",
+      "language": "English",
+      "difficulty": 2,
+      "points": 100,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Past Continuous Form 🎬\n\n1. **Basic Structure**:\n- was/were + verb-ing\n\n2. **Full Forms**:\n- I/he/she/it was working\n- we/you/they were working\n\n3. **Contractions**:\n- I/he/she/it wasn't working\n- we/you/they weren't working\n\n4. **Remember**:\n- Use 'was' with I/he/she/it\n- Use 'were' with we/you/they\n- Add -ing to the main verb\n\n5. **Spelling Rules for -ing**:\n\na) Most verbs: add -ing\n- work → working\n- play → playing\n- help → helping\n\nb) Verbs ending in -e:\n- Remove -e, then add -ing\n  * write → writing\n  * make → making\n  * dance → dancing\n\nc) Short vowel + one consonant:\n- Double the consonant, then add -ing\n  * sit → sitting\n  * run → running\n  * stop → stopping\n\n💡 **Common Mistakes**:\n- Don't forget was/were\n- Remember -ing spelling rules\n- Don't use with state verbs"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Past Continuous ⏰\n\n1. **Actions in Progress at a Specific Past Time**:\n- At 8pm yesterday, I was having dinner\n- This time last week, I was flying to Paris\n- At midnight, they were still working\n\n2. **Setting the Scene in Stories**:\n- The sun was shining\n- Birds were singing\n- Children were playing in the park\n\n3. **Parallel Actions in the Past**:\n- While I was cooking, she was setting the table\n- They were watching TV while I was studying\n\n4. **Temporary Situations in the Past**:\n- I was living in Paris last year\n- She was working as a teacher\n- They were staying with friends\n\n💡 **Important Note**:\nDon't use Past Continuous for:\n- Completed actions\n- Permanent situations\n- State verbs"
+        },
+        {
+          "title": "Past Simple vs Past Continuous",
+          "content": "# Interrupted Actions ⚡\n\n1. **Main Pattern**:\n- Past Continuous (longer action)\n- Past Simple (shorter, interrupting action)\n\n2. **Time Words**:\n- when\n- while\n- as\n\n3. **Examples**:\n\na) With 'when':\n- I was reading when the phone rang\n- When I arrived, they were having dinner\n- She was sleeping when the earthquake happened\n\nb) With 'while':\n- While I was working, someone knocked on the door\n- The accident happened while I was driving home\n- While they were playing football, it started to rain\n\nc) With 'as':\n- As I was leaving, the phone rang\n- He fell as he was running\n- The lights went out as we were eating\n\n💡 **Usage Tips**:\n- Past Continuous = background action\n- Past Simple = main event/interruption\n- Both actions happened in the past"
+        },
+        {
+          "title": "Questions and Negatives",
+          "content": "# Forming Questions and Negatives ❓\n\n1. **Negative Form**:\n- was/were + not + verb-ing\n\na) Full Forms:\n- I/he/she/it was not working\n- we/you/they were not working\n\nb) Contractions:\n- I/he/she/it wasn't working\n- we/you/they weren't working\n\n2. **Question Form**:\n\na) Yes/No Questions:\n- Was/Were + subject + verb-ing?\n  * Was she sleeping?\n  * Were they working?\n\nb) Wh- Questions:\n- Question word + was/were + subject + verb-ing?\n  * What were you doing?\n  * Where was he going?\n  * Why were they waiting?\n\n3. **Short Answers**:\n- Yes, I/he/she/it was\n- No, I/he/she/it wasn't\n- Yes, we/you/they were\n- No, we/you/they weren't\n\n💡 **Remember**:\n- Move was/were to start for questions\n- Don't forget -ing\n- Use correct form of be (was/were)"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'They ____ (sleep) when the phone rang.'",
+          "options": ["were sleeping", "was sleeping", "slept", "were slept"],
+          "correctIndex": 0,
+          "hint": "Use 'were' with 'they' + verb-ing for past continuous."
+        },
+        {
+          "type": "interrupted_action",
+          "question": "Choose the correct form: 'While I ____ (cook), she called.'",
+          "options": ["cooked", "was cooking", "were cooking", "am cooking"],
+          "correctIndex": 1,
+          "hint": "Use Past Continuous after 'while' for the longer action."
+        },
+        {
+          "type": "negative",
+          "question": "Make negative: 'She was reading.' →",
+          "options": [
+            "She wasn't reading",
+            "She didn't reading",
+            "She weren't reading",
+            "She wasn't read"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'wasn't' (was not) + verb-ing for negative."
+        },
+        {
+          "type": "question",
+          "question": "Form a question: 'He was working.' →",
+          "options": [
+            "Did he working?",
+            "Was he working?",
+            "Were he working?",
+            "Was he work?"
+          ],
+          "correctIndex": 1,
+          "hint": "Move 'was' to the start and keep the -ing form."
+        },
+        {
+          "type": "usage",
+          "question": "Which sentence shows the correct use of Past Continuous?",
+          "options": [
+            "I have gone to Paris last month",
+            "She has broken her leg yesterday",
+            "They have just arrived home",
+            "We have finished the work tomorrow"
+          ],
+          "correctIndex": 2,
+          "hint": "Past Continuous is used for ongoing actions that are interrupted."
+        },
+        {
+          "type": "parallel_actions",
+          "question": "Complete: 'While I was reading, she ____.'",
+          "options": [
+            "was watching TV",
+            "watched TV",
+            "is watching TV",
+            "watches TV"
+          ],
+          "correctIndex": 0,
+          "hint": "Use Past Continuous for parallel actions in the past."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Present Perfect: Forms and Uses",
+      "description": "🔄 Master the Present Perfect tense! Essential for connecting past actions to the present moment.\n\n🎯 In this lesson, you'll learn:\n- How to form the Present Perfect\n- When to use it vs Past Simple\n- Time expressions (ever, never, just, already, yet)\n- Life experiences and recent events\n\n⭐️ Level: Pre-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 2,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Present Perfect Form 🔄\n\n1. **Basic Structure**:\n- have/has + past participle\n\n2. **Full Forms**:\n- I/you/we/they have worked\n- he/she/it has worked\n\n3. **Contractions**:\n- I've/you've/we've/they've worked\n- he's/she's/it's worked\n\n4. **Past Participle Forms**:\n\na) Regular Verbs:\n- Add -ed (same as Past Simple)\n  * work → worked\n  * play → played\n  * study → studied\n\nb) Common Irregular Verbs:\n- go → gone/been\n- do → done\n- make → made\n- take → taken\n- see → seen\n- give → given\n\n💡 **Common Mistakes**:\n- Don't forget have/has\n- Learn irregular past participles\n- Don't confuse with Past Simple"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Present Perfect ⏰\n\n1. **Finished Actions with Present Results**:\n- I have lost my keys (= I can't find them now)\n- She has broken her leg (= it's still broken)\n- They have moved to London (= they live there now)\n\n2. **Life Experiences**:\n- I have been to Paris (sometime in my life)\n- She has never eaten sushi\n- They have traveled a lot\n\n3. **Recent Past with 'just'**:\n- I have just finished my homework\n- The train has just left\n- She has just arrived\n\n4. **Unfinished Time Periods**:\n- I have worked here for six years (= and still do)\n- She has lived in London since 2010\n- We have known each other for a long time\n\n💡 **Important Note**:\nPresent Perfect connects past actions to now:\n- No specific past time\n- Result or effect in present"
+        },
+        {
+          "title": "Time Expressions",
+          "content": "# Time Words with Present Perfect ⌚\n\n1. **Duration**:\n\na) For + period of time:\n- for two hours\n- for six months\n- for many years\n\nb) Since + start point:\n- since 2010\n- since Monday\n- since I was a child\n\n2. **Frequency**:\n\na) Ever (in questions):\n- Have you ever been to Paris?\n- Has she ever tried sushi?\n\nb) Never (in negatives):\n- I have never seen snow\n- She has never driven a car\n\n3. **Recent Past**:\n\na) Just:\n- I have just eaten\n- She has just left\n\nb) Already:\n- I have already done it\n- They have already left\n\nc) Yet (in questions and negatives):\n- Have they arrived yet?\n- I haven't finished yet\n\n4. **Other Expressions**:\n- lately/recently\n- so far/up to now\n- in the last week/month/year\n\n💡 **Remember**:\n- Don't use specific past time expressions\n- Use Past Simple for finished time periods"
+        },
+        {
+          "title": "Present Perfect vs Past Simple",
+          "content": "# Choosing Between Tenses 🤔\n\n1. **Use Present Perfect for**:\n\na) Connection to now:\n- I have lost my keys (still lost)\n- She has broken her arm (still broken)\n\nb) Unfinished time periods:\n- I have worked here for six years (still working)\n- It has rained a lot this week (week not over)\n\nc) Life experiences:\n- I have been to Japan (sometime in life)\n- She has never driven a car (in her life)\n\n2. **Use Past Simple for**:\n\na) Finished time:\n- I worked there last year\n- She visited Paris in 2019\n\nb) Specific past moment:\n- I lost my keys yesterday\n- She broke her arm last week\n\n3. **Examples Compared**:\n- I have seen that movie (sometime, unspecified)\n- I saw that movie last week (specific time)\n\n- She has lived in Paris (maybe still lives there)\n- She lived in Paris for two years (finished, not there now)\n\n💡 **Remember**:\n- Present Perfect = connection to now\n- Past Simple = finished time, no connection to now"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'She ____ (live) in London since 2010.'",
+          "options": ["lives", "lived", "has lived", "is living"],
+          "correctIndex": 2,
+          "hint": "Use Present Perfect for unfinished time periods with 'since'."
+        },
+        {
+          "type": "irregular",
+          "question": "Choose the correct form: 'I ____ (never/see) a lion.'",
+          "options": ["have never saw", "have never seen", "never saw", "never seen"],
+          "correctIndex": 1,
+          "hint": "Use have/has + past participle (seen) with never."
+        },
+        {
+          "type": "time_expressions",
+          "question": "Which time expression is NOT used with Present Perfect?",
+          "options": ["yet", "already", "last week", "just"],
+          "correctIndex": 2,
+          "hint": "Specific past time expressions (last week) use Past Simple."
+        },
+        {
+          "type": "usage",
+          "question": "Which sentence shows the correct use of Present Perfect?",
+          "options": [
+            "I have gone to Paris last month",
+            "She has broken her leg yesterday",
+            "They have just arrived home",
+            "We have finished the work tomorrow"
+          ],
+          "correctIndex": 2,
+          "hint": "Present Perfect with 'just' shows a very recent past action."
+        },
+        {
+          "type": "tense_choice",
+          "question": "Choose the correct form: 'I ____ my keys. I can't find them.'",
+          "options": [
+            "lose",
+            "lost",
+            "have lost",
+            "am losing"
+          ],
+          "correctIndex": 2,
+          "hint": "Use Present Perfect for past actions with present results."
+        },
+        {
+          "type": "experience",
+          "question": "Complete: '____ you ever ____ (try) Japanese food?'",
+          "options": [
+            "Did / tried",
+            "Have / tried",
+            "Have / try",
+            "Did / try"
+          ],
+          "correctIndex": 1,
+          "hint": "Use Present Perfect with 'ever' for life experiences."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Present Perfect Continuous: Forms and Uses",
+      "description": "🔄 Master the Present Perfect Continuous tense! Essential for describing ongoing actions that started in the past and continue until now.\n\n🎯 In this lesson, you'll learn:\n- How to form the Present Perfect Continuous\n- When to use it vs Present Perfect Simple\n- Duration and recent activities\n- Results of continuous actions\n\n⭐️ Level: Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 2,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Present Perfect Continuous Form 🔄\n\n1. **Basic Structure**:\n- have/has + been + verb-ing\n\n2. **Full Forms**:\n- I/you/we/they have been working\n- he/she/it has been working\n\n3. **Contractions**:\n- I've/you've/we've/they've been working\n- he's/she's/it's been working\n\n4. **Negative Forms**:\n\na) Full Forms:\n- I/you/we/they have not been working\n- he/she/it has not been working\n\nb) Contractions:\n- I/you/we/they haven't been working\n- he/she/it hasn't been working\n\n5. **Question Forms**:\n- Have/Has + subject + been + verb-ing?\n\n💡 **Common Mistakes**:\n- Don't forget 'been'\n- Remember -ing spelling rules\n- Don't use with state verbs"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Present Perfect Continuous ⏰\n\n1. **Actions Continuing from Past until Now**:\n- I have been working here for six months\n- She has been learning English since 2020\n- They have been waiting for two hours\n\n2. **Recent Continuous Activities**:\n- I'm tired because I have been running\n- She's red because she has been crying\n- Look at the clouds - it has been raining\n\n3. **Temporary Situations**:\n- He has been living in Paris (temporary)\n- They have been staying with friends\n- We have been using temporary offices\n\n4. **Emphasis on Duration**:\n- How long have you been studying English?\n- She has been teaching for 10 years\n- They have been building this road for months\n\n💡 **Important Note**:\nFocus on:\n- Duration of action\n- Continuous nature\n- Connection to present"
+        },
+        {
+          "title": "Present Perfect vs Present Perfect Continuous",
+          "content": "# Choosing Between Forms 🤔\n\n1. **Use Present Perfect Continuous for**:\n\na) Emphasis on duration/process:\n- I have been reading (focus on activity)\n- She has been working hard (emphasis on process)\n\nb) Temporary situations:\n- He has been living here (temporary)\n- They have been studying online (temporary)\n\nc) Cause of present result:\n- I'm tired because I have been working\n- The ground is wet because it has been raining\n\n2. **Use Present Perfect Simple for**:\n\na) Completed actions/results:\n- I have read three books (focus on completion)\n- She has written the report (finished)\n\nb) Permanent situations:\n- He has lived here for 20 years (permanent)\n- They have owned this house since 1990\n\nc) Number of occurrences:\n- I have seen that movie twice\n- She has visited Paris three times\n\n3. **Examples Compared**:\n- I have been reading the book (not finished)\n- I have read the book (finished)\n\n- She has been teaching English (continuing)\n- She has taught 100 students (completed number)\n\n💡 **Remember**:\n- Continuous = focus on process\n- Simple = focus on completion/result"
+        },
+        {
+          "title": "Time Expressions",
+          "content": "# Time Words and Duration ⌚\n\n1. **Duration Expressions**:\n\na) For + period of time:\n- for two hours\n- for six months\n- for a long time\n\nb) Since + start point:\n- since morning\n- since last week\n- since I arrived\n\n2. **Recent Past**:\n- all day\n- all week\n- recently\n- lately\n\n3. **Up to Now**:\n- How long...?\n- so far\n- up until now\n- these days\n\n4. **Example Sentences**:\n- I have been working here since March\n- She has been studying all day\n- They have been waiting for hours\n- How long have you been learning English?\n\n💡 **Usage Tips**:\n- Use with duration expressions\n- Focus on ongoing nature\n- Show connection to now"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'She ____ (study) English for three years.'",
+          "options": [
+            "has been studying",
+            "have been studying",
+            "has studying",
+            "have studying"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'has been' + verb-ing for she/he/it."
+        },
+        {
+          "type": "tense_choice",
+          "question": "Choose the correct form: 'I'm tired because I ____ (work) all day.'",
+          "options": [
+            "have worked",
+            "have been working",
+            "has been working",
+            "am working"
+          ],
+          "correctIndex": 1,
+          "hint": "Use Present Perfect Continuous to explain present result of continuous action."
+        },
+        {
+          "type": "usage",
+          "question": "Which sentence shows the correct use of Present Perfect Continuous?",
+          "options": [
+            "I have been knowing her for years",
+            "She has been finishing her homework",
+            "They have been waiting since 2pm",
+            "We have been owning this car"
+          ],
+          "correctIndex": 2,
+          "hint": "Present Perfect Continuous is used for ongoing actions, not state verbs."
+        },
+        {
+          "type": "comparison",
+          "question": "Which sentence emphasizes the PROCESS rather than the result?",
+          "options": [
+            "I have written three essays",
+            "I have been writing essays all day",
+            "She has taught 100 students",
+            "They have lived here for 20 years"
+          ],
+          "correctIndex": 1,
+          "hint": "Present Perfect Continuous emphasizes the ongoing process."
+        },
+        {
+          "type": "time_expressions",
+          "question": "Complete: 'How long ____ you ____ (wait) here?'",
+          "options": [
+            "did / wait",
+            "have / waited",
+            "have / been waiting",
+            "are / waiting"
+          ],
+          "correctIndex": 2,
+          "hint": "Use Present Perfect Continuous with 'How long' for duration questions."
+        },
+        {
+          "type": "negative",
+          "question": "Make negative: 'She has been studying.' →",
+          "options": [
+            "She hasn't been studying",
+            "She haven't been studying",
+            "She has not studying",
+            "She not been studying"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'hasn't been' + verb-ing for negative with she/he/it."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Past Perfect: Forms and Uses",
+      "description": "⏮️ Master the Past Perfect tense! Essential for describing actions that happened before another point in the past.\n\n🎯 In this lesson, you'll learn:\n- How to form the Past Perfect\n- When to use it vs Past Simple\n- Time expressions and sequences\n- Reported speech and conditionals\n\n⭐️ Level: Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 2,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Past Perfect Form ⏮️\n\n1. **Basic Structure**:\n- had + past participle\n\n2. **Full Forms**:\n- I/you/he/she/it/we/they had worked\n\n3. **Contractions**:\n- I'd/you'd/he'd/she'd/it'd/we'd/they'd worked\n\n4. **Past Participle Forms**:\n\na) Regular Verbs:\n- Add -ed (same as Past Simple)\n  * work → worked\n  * play → played\n  * study → studied\n\nb) Common Irregular Verbs:\n- go → gone\n- do → done\n- see → seen\n- take → taken\n- write → written\n- give → given\n\n💡 **Common Mistakes**:\n- Don't forget 'had'\n- Learn irregular past participles\n- Don't confuse with Past Simple"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Past Perfect ⏰\n\n1. **Earlier Past Actions**:\n- When I arrived, they had already left\n- She had studied English before she moved to London\n- By the time we got there, the movie had started\n\n2. **Sequence of Past Events**:\n- The thief had escaped before the police arrived\n- After he had finished work, he went home\n- They had eaten dinner when I called\n\n3. **Past States Before Changes**:\n- I was tired because I had worked all day\n- The ground was wet because it had rained\n- She knew London well because she had lived there\n\n4. **Reported Speech**:\n- She said she had seen the movie\n- He told me he had never been to Paris\n- They explained that they had missed the train\n\n💡 **Important Note**:\nPast Perfect shows which action happened first:\n- Past Perfect = earlier action\n- Past Simple = later action"
+        },
+        {
+          "title": "Time Expressions",
+          "content": "# Time Words with Past Perfect ⌚\n\n1. **Sequence Words**:\n\na) Before/After:\n- before he arrived\n- after they had left\n\nb) By the time:\n- by the time we got there\n- by the time she finished\n\nc) Already/Just:\n- had already finished\n- had just left\n\n2. **Time References**:\n\na) Earlier times:\n- the previous day\n- the day before\n- earlier that week\n\nb) Never/Ever:\n- had never seen\n- had ever visited\n\n3. **Example Sentences**:\n- By 8pm, they had finished dinner\n- When I met her, she had already learned Japanese\n- He had never traveled abroad before that trip\n\n💡 **Usage Tips**:\n- Use time expressions to clarify sequence\n- Show which action came first\n- Make connections between past events"
+        },
+        {
+          "title": "Questions and Negatives",
+          "content": "# Forming Questions and Negatives ❓\n\n1. **Negative Form**:\n- had not (hadn't) + past participle\n\na) Full Forms:\n- I/you/he/she/it/we/they had not worked\n\nb) Contractions:\n- I/you/he/she/it/we/they hadn't worked\n\n2. **Question Form**:\n\na) Yes/No Questions:\n- Had + subject + past participle?\n  * Had you finished?\n  * Had she seen it?\n  * Had they arrived?\n\nb) Wh- Questions:\n- Question word + had + subject + past participle?\n  * What had you done?\n  * Where had she gone?\n  * Why had they left?\n\n3. **Short Answers**:\n- Yes, I/you/he/she/it/we/they had\n- No, I/you/he/she/it/we/they hadn't\n\n💡 **Remember**:\n- Move 'had' to start for questions\n- Use past participle, not past simple\n- Keep time sequence clear"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'When I arrived, they ____ (leave).'",
+          "options": [
+            "had left",
+            "have left",
+            "had leaved",
+            "were left"
+          ],
+          "correctIndex": 0,
+          "hint": "Use Past Perfect (had + past participle) for the earlier action."
+        },
+        {
+          "type": "sequence",
+          "question": "Choose the correct sequence: 'By the time I ____ home, she ____ dinner.'",
+          "options": [
+            "got / had cooked",
+            "had got / cooked",
+            "got / has cooked",
+            "had got / had cooked"
+          ],
+          "correctIndex": 0,
+          "hint": "Use Past Simple for the later action and Past Perfect for the earlier one."
+        },
+        {
+          "type": "negative",
+          "question": "Make negative: 'She had seen the movie.' →",
+          "options": [
+            "She hadn't saw the movie",
+            "She hadn't seen the movie",
+            "She didn't had seen the movie",
+            "She had not saw the movie"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'hadn't' + past participle for negative."
+        },
+        {
+          "type": "question",
+          "question": "Form a question: 'They had finished work.' →",
+          "options": [
+            "Did they had finished work?",
+            "Had they finished work?",
+            "Have they had finished work?",
+            "Had they finish work?"
+          ],
+          "correctIndex": 1,
+          "hint": "Move 'had' to the start and keep the past participle."
+        },
+        {
+          "type": "reported_speech",
+          "question": "Change to reported speech: 'I have never been to Paris.' → She said...",
+          "options": [
+            "she had never been to Paris",
+            "she has never been to Paris",
+            "she never had been to Paris",
+            "she was never been to Paris"
+          ],
+          "correctIndex": 0,
+          "hint": "Change Present Perfect to Past Perfect in reported speech."
+        },
+        {
+          "type": "time_expressions",
+          "question": "Complete: '____ I got to the station, the train ____ (leave).'",
+          "options": [
+            "When / had left",
+            "By / left",
+            "By the time / had left",
+            "After / was left"
+          ],
+          "correctIndex": 2,
+          "hint": "Use 'By the time' with Past Simple + Past Perfect for sequence."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Past Perfect Continuous: Forms and Uses",
+      "description": "🔄 Master the Past Perfect Continuous tense! Essential for describing ongoing actions that happened before another point in the past.\n\n🎯 In this lesson, you'll learn:\n- How to form the Past Perfect Continuous\n- When to use it vs Past Perfect Simple\n- Duration and results in the past\n- Reported speech with continuous actions\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Form and Structure",
+          "content": "# Past Perfect Continuous Form 🔄\n\n1. **Basic Structure**:\n- had + been + verb-ing\n\n2. **Full Forms**:\n- I/you/he/she/it/we/they had been working\n\n3. **Contractions**:\n- I'd/you'd/he'd/she'd/it'd/we'd/they'd been working\n\n4. **Negative Forms**:\n\na) Full Forms:\n- I/you/he/she/it/we/they had not been working\n\nb) Contractions:\n- I/you/he/she/it/we/they hadn't been working\n\n5. **Question Forms**:\n- Had + subject + been + verb-ing?\n\n💡 **Common Mistakes**:\n- Don't forget 'been'\n- Remember -ing spelling rules\n- Don't use with state verbs"
+        },
+        {
+          "title": "Uses and Meaning",
+          "content": "# When to Use Past Perfect Continuous ⏰\n\n1. **Actions Continuing up to a Past Time**:\n- I had been working for three hours when she called\n- She had been studying English before she moved to London\n- They had been waiting for an hour when the bus finally came\n\n2. **Explaining Past Results**:\n- I was tired because I had been working all day\n- The ground was wet because it had been raining\n- Her eyes were red because she had been crying\n\n3. **Duration Before Past Point**:\n- How long had you been studying when you took the test?\n- He had been teaching for ten years when he retired\n- They had been living there for six months when I visited\n\n4. **Reported Speech with Continuous Actions**:\n- She said she had been working all day\n- He told me he had been waiting for hours\n- They explained that they had been trying to call\n\n💡 **Important Note**:\nFocus on:\n- Duration up to past point\n- Continuous nature of action\n- Effect or result in the past"
+        },
+        {
+          "title": "Past Perfect vs Past Perfect Continuous",
+          "content": "# Choosing Between Forms 🤔\n\n1. **Use Past Perfect Continuous for**:\n\na) Emphasis on duration/process:\n- I had been reading (focus on activity)\n- She had been working hard (emphasis on process)\n\nb) Temporary situations:\n- He had been living there (temporary)\n- They had been using temporary offices\n\nc) Cause of past result:\n- I was tired because I had been working\n- The ground was wet because it had been raining\n\n2. **Use Past Perfect Simple for**:\n\na) Completed actions/results:\n- I had read three books (focus on completion)\n- She had finished the report (completed)\n\nb) Permanent situations:\n- He had lived there for 20 years (permanent)\n- They had owned that house since 1990\n\nc) Number of occurrences:\n- I had seen that movie twice\n- She had visited Paris three times\n\n3. **Examples Compared**:\n- I had been reading the book (duration/not finished)\n- I had read the book (completed)\n\n- She had been teaching English (continuing action)\n- She had taught 100 students (completed number)\n\n💡 **Remember**:\n- Continuous = focus on process\n- Simple = focus on completion/result"
+        },
+        {
+          "title": "Time Expressions",
+          "content": "# Time Words and Duration ⌚\n\n1. **Duration Up to Past**:\n\na) For + period of time:\n- for two hours\n- for six months\n- for a long time\n\nb) Since + start point:\n- since morning\n- since the previous day\n- since they arrived\n\n2. **Time References**:\n\na) Point of interruption:\n- when\n- until\n- by the time\n\nb) Duration words:\n- all day\n- the whole time\n- that entire week\n\n3. **Example Sentences**:\n- I had been working there since March\n- She had been studying all morning\n- They had been waiting for hours when I arrived\n\n💡 **Usage Tips**:\n- Use time expressions to show duration\n- Make clear which action came first\n- Show connection between past events"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Complete: 'They ____ (wait) for an hour when the bus came.'",
+          "options": [
+            "had been waiting",
+            "had waited",
+            "were waiting",
+            "had been waited"
+          ],
+          "correctIndex": 0,
+          "hint": "Use Past Perfect Continuous for an action continuing up to a point in the past."
+        },
+        {
+          "type": "cause_result",
+          "question": "Choose the correct explanation: 'The ground was wet because...'",
+          "options": [
+            "it had rained",
+            "it had been raining",
+            "it was raining",
+            "it rained"
+          ],
+          "correctIndex": 1,
+          "hint": "Use Past Perfect Continuous to explain the cause of a past situation."
+        },
+        {
+          "type": "reported_speech",
+          "question": "Change to reported speech: 'I have been studying all day.' → She said...",
+          "options": [
+            "she had studied all day",
+            "she had been studying all day",
+            "she was studying all day",
+            "she has been studying all day"
+          ],
+          "correctIndex": 1,
+          "hint": "Change Present Perfect Continuous to Past Perfect Continuous in reported speech."
+        },
+        {
+          "type": "comparison",
+          "question": "Which sentence emphasizes the DURATION of the action?",
+          "options": [
+            "I had written three letters",
+            "I had been writing letters all morning",
+            "She had taught English",
+            "They had lived there"
+          ],
+          "correctIndex": 1,
+          "hint": "Past Perfect Continuous emphasizes the duration of the action."
+        },
+        {
+          "type": "negative",
+          "question": "Make negative: 'He had been working.' →",
+          "options": [
+            "He hadn't been working",
+            "He hadn't worked",
+            "He hadn't working",
+            "He had not worked"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'hadn't been' + verb-ing for negative Past Perfect Continuous."
+        },
+        {
+          "type": "time_expressions",
+          "question": "Complete: 'How long ____ you ____ (study) when you took the test?'",
+          "options": [
+            "did / study",
+            "had / studied",
+            "had / been studying",
+            "were / studying"
+          ],
+          "correctIndex": 2,
+          "hint": "Use Past Perfect Continuous with 'How long' for duration up to a past point."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Future Forms: Will, Going to, and Future Perfect",
+      "description": "⏭️ Master the different ways to talk about the future in English!\n\n🎯 In this lesson, you'll learn:\n- When to use 'will' vs 'going to'\n- How to make predictions and promises\n- Expressing planned future actions\n- Using Future Perfect for completed future actions\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Will - Form and Use",
+          "content": "# Using 'Will' for Future ⚡\n\n1. **Basic Structure**:\n- will + base form\n- won't (will not) + base form\n\n2. **Main Uses**:\n\na) Instant Decisions:\n- 'It's cold.' 'I'll close the window.'\n- The phone's ringing. I'll answer it.\n- You look tired. I'll make you some coffee.\n\nb) Predictions:\n- I think it will rain tomorrow\n- She will probably pass the exam\n- They won't arrive before 6\n\nc) Promises:\n- I will help you with your homework\n- We will be there on time\n- I won't tell anyone your secret\n\nd) Threats/Warnings:\n- You will regret this!\n- This will hurt a bit\n- You'll miss the train if you don't hurry\n\n💡 **Remember**:\n- Use for spontaneous decisions\n- General future predictions\n- No prior planning"
+        },
+        {
+          "title": "Going to - Form and Use",
+          "content": "# Using 'Going to' for Future 🎯\n\n1. **Basic Structure**:\n- am/is/are + going to + base form\n\n2. **Main Uses**:\n\na) Future Plans and Intentions:\n- I'm going to study medicine\n- She's going to move to London\n- They're going to get married in June\n\nb) Predictions with Present Evidence:\n- Look at those clouds! It's going to rain\n- She's going to have a baby (she's pregnant)\n- The team is playing well. They're going to win\n\n3. **Contractions**:\n- I'm going to\n- He's/She's/It's going to\n- We're/You're/They're going to\n\n4. **Negative Forms**:\n- I'm not going to\n- He/She/It isn't going to\n- We/You/They aren't going to\n\n💡 **Important Note**:\n- Use for planned actions\n- Evidence-based predictions\n- More certain than 'will'"
+        },
+        {
+          "title": "Future Perfect - Form and Use",
+          "content": "# Future Perfect Form ⏱️\n\n1. **Basic Structure**:\n- will + have + past participle\n\n2. **Main Uses**:\n\na) Completed Actions by Future Time:\n- By next week, I will have finished the project\n- She will have graduated by June\n- They will have moved house by Christmas\n\nb) Duration up to Future Point:\n- By next month, I will have worked here for 10 years\n- In 2025, they will have been married for 25 years\n- Next week, she will have lived here for a year\n\n3. **Time Expressions**:\n- by + future time\n- by the time + present simple\n- by then\n- by that time\n\n4. **Example Sentences**:\n- By the time you arrive, I will have cleaned the house\n- The builders will have completed the work by next Friday\n- She will have written three books by the end of this year\n\n💡 **Remember**:\n- Focus on completion\n- Need a future time reference\n- Often used with 'by'"
+        },
+        {
+          "title": "Comparing Future Forms",
+          "content": "# Choosing the Right Future Form 🤔\n\n1. **Will vs Going to**:\n\na) Use 'will' for:\n- Spontaneous decisions\n  * 'I'm thirsty.' 'I'll get you some water.'\n- General predictions\n  * I think it will snow tomorrow\n- Promises\n  * I will always love you\n\nb) Use 'going to' for:\n- Planned decisions\n  * I'm going to buy a new car next month\n- Evidence-based predictions\n  * Look at the sky - it's going to rain\n\n2. **Present Continuous for Future**:\n- Used for fixed arrangements\n  * I'm meeting John at 6\n  * We're flying to Paris next week\n\n3. **Future Perfect vs Other Forms**:\n- Future Perfect: completion by future time\n  * By next week, I will have finished\n- Will/Going to: general future\n  * I will/am going to finish next week\n\n💡 **Usage Tips**:\n- Consider timing and certainty\n- Look for evidence/planning\n- Think about completion"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form_choice",
+          "question": "Choose the best future form: 'Look at those black clouds! It ____ rain.'",
+          "options": [
+            "will",
+            "is going to",
+            "will have",
+            "shall"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'going to' for predictions based on present evidence."
+        },
+        {
+          "type": "instant_decision",
+          "question": "'I'm cold.' 'I ____ close the window.'",
+          "options": [
+            "will",
+            "am going to",
+            "will have",
+            "am closing"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'will' for instant decisions made at the moment of speaking."
+        },
+        {
+          "type": "future_perfect",
+          "question": "Complete: 'By next month, they ____ (finish) the project.'",
+          "options": [
+            "will finish",
+            "are going to finish",
+            "will have finished",
+            "will be finishing"
+          ],
+          "correctIndex": 2,
+          "hint": "Use Future Perfect for actions completed by a future time."
+        },
+        {
+          "type": "plans",
+          "question": "Which is correct for a planned future action?",
+          "options": [
+            "I'll go to Paris next month",
+            "I'm going to go to Paris next month",
+            "I will have gone to Paris next month",
+            "I go to Paris next month"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'going to' for planned future actions."
+        },
+        {
+          "type": "mixed_future",
+          "question": "Choose the correct form: 'By the time you arrive, I ____ (clean) the house.'",
+          "options": [
+            "will clean",
+            "am going to clean",
+            "will have cleaned",
+            "will be cleaning"
+          ],
+          "correctIndex": 2,
+          "hint": "Use Future Perfect when one action will be completed before another future action."
+        },
+        {
+          "type": "context",
+          "question": "The phone's ringing. Which response is most natural?",
+          "options": [
+            "I'll answer it",
+            "I'm going to answer it",
+            "I will have answered it",
+            "I answer it"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'will' for spontaneous decisions made at the moment of speaking."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Modal Verbs: Can, Could, Must, Should",
+      "description": "🎯 Master modal verbs in English! Essential for expressing ability, obligation, permission, and advice.\n\n🎯 In this lesson, you'll learn:\n- How to use different modal verbs\n- Expressing ability and permission\n- Making requests and offers\n- Giving advice and expressing obligation\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Can and Could - Ability and Permission",
+          "content": "# Using Can and Could 💪\n\n1. **Basic Structure**:\n- can/could + base form\n- cannot (can't)/could not (couldn't) + base form\n\n2. **Expressing Ability**:\n\na) Present Ability (can):\n- I can speak three languages\n- She can play the piano\n- They can't swim\n\nb) Past Ability (could):\n- I could read when I was four\n- She could speak French when she was young\n- They couldn't understand the lesson\n\n3. **Asking for Permission**:\n\na) Informal (can):\n- Can I use your phone?\n- Can we leave early?\n\nb) More Polite (could):\n- Could I borrow your pen?\n- Could we have the bill, please?\n\n4. **Making Requests**:\n- Can/Could you help me?\n- Can/Could you open the window?\n- Could you tell me the way to the station?\n\n💡 **Remember**:\n- 'Can' is more informal\n- 'Could' is more polite\n- Use base form after modal verbs"
+        },
+        {
+          "title": "Must and Have to - Obligation",
+          "content": "# Expressing Obligation 📋\n\n1. **Must vs Have to**:\n\na) Must (personal obligation/strong recommendation):\n- I must finish this today (I say so)\n- You must see this film (I recommend)\n- We must be quiet in the library\n\nb) Have to (external obligation):\n- I have to wear a uniform (company rule)\n- She has to work late (boss's decision)\n- They have to pay taxes\n\n2. **Negative Forms**:\n\na) Must not (mustn't) = prohibition:\n- You mustn't smoke here\n- Students mustn't use phones in class\n\nb) Don't have to = no obligation:\n- I don't have to work tomorrow (it's optional)\n- She doesn't have to pay (it's free)\n\n3. **Past Forms**:\n- had to (past obligation)\n- didn't have to (past lack of obligation)\n\n💡 **Important Note**:\n- Must = speaker's authority\n- Have to = external authority\n- Mustn't ≠ don't have to"
+        },
+        {
+          "title": "Should and Ought to - Advice",
+          "content": "# Giving Advice 💭\n\n1. **Basic Structure**:\n- should/ought to + base form\n\n2. **Main Uses**:\n\na) Giving Advice:\n- You should exercise more\n- She should study harder\n- They should save money\n\nb) Making Recommendations:\n- You should visit Paris in spring\n- He should try the local food\n- They should book in advance\n\n3. **Expressing Opinion**:\n- The government should do more\n- Companies should reduce pollution\n- Schools should teach life skills\n\n4. **Negative Forms**:\n- shouldn't/ought not to\n  * You shouldn't work so hard\n  * He shouldn't drive so fast\n\n💡 **Usage Tips**:\n- Less strong than must\n- More personal than have to\n- Expresses opinion/recommendation"
+        },
+        {
+          "title": "May and Might - Possibility",
+          "content": "# Expressing Possibility 🎲\n\n1. **Basic Structure**:\n- may/might + base form\n\n2. **Future Possibility**:\n\na) May:\n- It may rain tomorrow\n- She may be late\n- They may come to the party\n\nb) Might (less certain):\n- It might snow later\n- He might join us\n- We might go to Italy\n\n3. **Asking Permission (formal)**:\n- May I come in?\n- May I use your phone?\n- May we leave early?\n\n4. **Making Suggestions**:\n- You may want to try this\n- It might be better to wait\n- We might need to book ahead\n\n💡 **Remember**:\n- May = more formal\n- Might = less certain\n- Both express possibility"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "ability",
+          "question": "Choose the correct form: 'When I was young, I ____ swim very well.'",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "should"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'could' for past ability."
+        },
+        {
+          "type": "obligation",
+          "question": "Which is correct for a school rule?",
+          "options": [
+            "Students must to wear uniform",
+            "Students have to wear uniform",
+            "Students should to wear uniform",
+            "Students are having to wear uniform"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'have to' for external obligation (school rule)."
+        },
+        {
+          "type": "advice",
+          "question": "Complete: 'You ____ eat more vegetables.'",
+          "options": [
+            "should",
+            "must",
+            "may",
+            "can"
+          ],
+          "correctIndex": 0,
+          "hint": "Use 'should' for advice and recommendations."
+        },
+        {
+          "type": "permission",
+          "question": "Which is the most polite way to ask permission?",
+          "options": [
+            "Can I open the window?",
+            "Could I open the window?",
+            "May I open the window?",
+            "Must I open the window?"
+          ],
+          "correctIndex": 2,
+          "hint": "'May' is the most formal/polite way to ask permission."
+        },
+        {
+          "type": "possibility",
+          "question": "Choose the correct form for less certainty: 'It ____ rain later.'",
+          "options": [
+            "can",
+            "must",
+            "may",
+            "might"
+          ],
+          "correctIndex": 3,
+          "hint": "'Might' expresses less certainty than 'may'."
+        },
+        {
+          "type": "negative",
+          "question": "Which means 'it's not necessary'?",
+          "options": [
+            "mustn't",
+            "don't have to",
+            "shouldn't",
+            "can't"
+          ],
+          "correctIndex": 1,
+          "hint": "'Don't have to' means no obligation, while 'mustn't' means prohibition."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Conditionals: Zero, First, Second, and Third",
+      "description": "🔄 Master conditional sentences in English! Essential for expressing different types of possibilities and hypothetical situations.\n\n🎯 In this lesson, you'll learn:\n- How to form different types of conditionals\n- When to use each conditional type\n- Mixed conditionals\n- Common expressions and variations\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 3-4 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Zero Conditional",
+          "content": "# General Truths and Scientific Facts 🌍\n\n1. **Basic Structure**:\n- If/When + present simple, present simple\n\n2. **Main Uses**:\n\na) Scientific Facts:\n- If you heat water to 100°C, it boils\n- When it rains, the ground gets wet\n- If you don't water plants, they die\n\nb) General Truths:\n- If you work hard, you succeed\n- When children are tired, they get cranky\n- If you press this button, the machine starts\n\n3. **Time Words**:\n- if = when\n- whenever\n- every time\n\n💡 **Remember**:\n- Both parts use present simple\n- True in all situations\n- Can use 'when' instead of 'if'"
+        },
+        {
+          "title": "First Conditional",
+          "content": "# Real Possibilities in the Future 🎯\n\n1. **Basic Structure**:\n- If + present simple, will + base form\n\n2. **Main Uses**:\n\na) Likely Future Results:\n- If it rains, I will take an umbrella\n- If you study hard, you will pass the exam\n- If we leave now, we will catch the train\n\nb) Warnings and Promises:\n- If you don't hurry, you will be late\n- If you help me, I will give you a reward\n- If it snows, we won't go out\n\n3. **Variations**:\n- Can use 'going to' instead of 'will'\n- Can use other modals (may, might, can)\n- Can use imperatives in result clause\n\n💡 **Important Note**:\n- Real possibility in future\n- Present simple in if-clause\n- Will/going to in main clause"
+        },
+        {
+          "title": "Second Conditional",
+          "content": "# Imaginary Present/Future 💭\n\n1. **Basic Structure**:\n- If + past simple, would + base form\n\n2. **Main Uses**:\n\na) Unlikely or Impossible Situations:\n- If I won the lottery, I would buy a house\n- If I were you, I would accept the job\n- If we had more time, we would visit Paris\n\nb) Giving Advice:\n- If I were you, I would study harder\n- If he asked me, I would help him\n- If they offered you the job, what would you do?\n\n3. **Special Case: 'Were'**:\n- Use 'were' (not 'was') in formal English\n  * If I were rich...\n  * If she were here...\n\n💡 **Remember**:\n- Imaginary situations\n- Less likely than first conditional\n- Can use 'could/might' instead of 'would'"
+        },
+        {
+          "title": "Third Conditional",
+          "content": "# Past Regrets and Hypotheticals ⏮️\n\n1. **Basic Structure**:\n- If + past perfect, would have + past participle\n\n2. **Main Uses**:\n\na) Past Regrets:\n- If I had studied harder, I would have passed the exam\n- If you had told me, I would have helped\n- If we had left earlier, we wouldn't have missed the train\n\nb) Imagining Different Past Results:\n- If she had taken the job, she would have moved to Paris\n- If it hadn't rained, we would have gone to the beach\n- If they had won the match, they would have been champions\n\n3. **Variations**:\n- Could have/might have instead of would have\n- Different results in present:\n  * If I had studied medicine, I would be a doctor now\n\n💡 **Important Note**:\n- Impossible to change now\n- Expresses regret/criticism\n- Past perfect in if-clause"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "zero_conditional",
+          "question": "Complete: 'If you mix yellow and blue, you ____ green.'",
+          "options": [
+            "will get",
+            "get",
+            "would get",
+            "got"
+          ],
+          "correctIndex": 1,
+          "hint": "Zero conditional uses present simple in both clauses for general truths."
+        },
+        {
+          "type": "first_conditional",
+          "question": "Choose the correct form: 'If it ____ (rain), I ____ (take) an umbrella.'",
+          "options": [
+            "rains / will take",
+            "will rain / will take",
+            "rains / take",
+            "rain / will take"
+          ],
+          "correctIndex": 0,
+          "hint": "First conditional uses present simple in if-clause and will + base form in result clause."
+        },
+        {
+          "type": "second_conditional",
+          "question": "Complete: 'If I ____ rich, I ____ buy a big house.'",
+          "options": [
+            "am / will",
+            "were / would",
+            "had been / would",
+            "was / will"
+          ],
+          "correctIndex": 1,
+          "hint": "Second conditional uses past simple (were) and would + base form."
+        },
+        {
+          "type": "third_conditional",
+          "question": "Choose the correct form: 'If you ____ (tell) me, I ____ (help).'",
+          "options": [
+            "had told / would have helped",
+            "told / would help",
+            "had told / would help",
+            "told / had helped"
+          ],
+          "correctIndex": 0,
+          "hint": "Third conditional uses past perfect and would have + past participle."
+        },
+        {
+          "type": "mixed_conditional",
+          "question": "Which sentence expresses a past action with present result?",
+          "options": [
+            "If I were rich, I would buy a house",
+            "If I had studied medicine, I would be a doctor now",
+            "If you help me, I will finish faster",
+            "If you mix red and blue, you get purple"
+          ],
+          "correctIndex": 1,
+          "hint": "Mixed conditionals can combine third conditional (past) with second conditional (present result)."
+        },
+        {
+          "type": "usage",
+          "question": "Which conditional should you use for a likely future event?",
+          "options": [
+            "Zero conditional",
+            "First conditional",
+            "Second conditional",
+            "Third conditional"
+          ],
+          "correctIndex": 1,
+          "hint": "First conditional is used for real possibilities in the future."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Passive Voice: All Tenses",
+      "description": "🔄 Master the Passive Voice in English! Essential for formal writing and describing processes.\n\n🎯 In this lesson, you'll learn:\n- How to form passive voice in all tenses\n- When to use passive instead of active\n- Passive with modal verbs\n- Common passive expressions\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Basic Form and Structure",
+          "content": "# Forming Passive Voice 🔨\n\n1. **Basic Structure**:\n- be + past participle\n\n2. **Present Simple Passive**:\n- am/is/are + past participle\n  * Coffee is grown in Brazil\n  * These cars are made in Germany\n  * I am paid monthly\n\n3. **Past Simple Passive**:\n- was/were + past participle\n  * The house was built in 1990\n  * The letters were sent yesterday\n  * Many mistakes were made\n\n4. **Present Perfect Passive**:\n- have/has been + past participle\n  * The work has been finished\n  * The letter has been sent\n  * All tickets have been sold\n\n5. **Past Perfect Passive**:\n- had been + past participle\n  * The house had been sold\n  * The work had been completed\n  * Everything had been prepared\n\n💡 **Remember**:\n- Use appropriate form of 'be'\n- Always use past participle\n- Consider time of action"
+        },
+        {
+          "title": "When to Use Passive",
+          "content": "# Choosing Active or Passive 🤔\n\n1. **Use Passive When**:\n\na) Unknown or Unimportant Agent:\n- My car was stolen (don't know who did it)\n- This building was constructed in 1989 (builder unknown)\n- Mistakes were made (don't want to say who)\n\nb) Focus on Action/Object:\n- The letters are delivered every morning\n- English is spoken in many countries\n- The project will be completed next week\n\nc) Formal/Scientific Writing:\n- The experiment was conducted...\n- The data were analyzed...\n- It can be concluded that...\n\n2. **Common Contexts**:\n\na) News Reports:\n- The suspect has been arrested\n- Three people were injured\n- The decision was announced\n\nb) Processes/Procedures:\n- First, the ingredients are mixed\n- Then, the mixture is heated\n- Finally, the product is packaged\n\n💡 **Usage Tips**:\n- More formal than active\n- Common in academic writing\n- Emphasizes receiver of action"
+        },
+        {
+          "title": "Advanced Forms",
+          "content": "# Complex Passive Structures 📚\n\n1. **Continuous Forms**:\n\na) Present Continuous Passive:\n- is/are being + past participle\n  * The house is being painted\n  * Changes are being made\n\nb) Past Continuous Passive:\n- was/were being + past participle\n  * The car was being repaired\n  * The documents were being checked\n\n2. **Future Forms**:\n\na) Will Passive:\n- will be + past participle\n  * The meeting will be held tomorrow\n  * The results will be announced soon\n\nb) Going to Passive:\n- is/are going to be + past participle\n  * The building is going to be demolished\n  * Changes are going to be made\n\n3. **Modal Verbs**:\n\na) Modal + be + past participle:\n- must be done\n- should be finished\n- can be found\n- might be changed\n\n💡 **Important Note**:\n- Not all tenses common in passive\n- Some forms rarely used\n- Consider natural usage"
+        },
+        {
+          "title": "By-Phrase and Reporting Verbs",
+          "content": "# Additional Passive Structures 📝\n\n1. **By-Phrase**:\n\na) When to Include:\n- Important agent:\n  * Hamlet was written by Shakespeare\n  * The theory was developed by Einstein\n\nb) When to Omit:\n- Unknown agent\n- Obvious agent\n- Unimportant agent\n\n2. **Common Reporting Verbs**:\n\na) Say/Tell:\n- It is said that...\n- He is said to be...\n- They are thought to have...\n\nb) Other Verbs:\n- is believed to\n- is known to\n- is expected to\n- is supposed to\n\n3. **Get Passive**:\n- get + past participle (informal)\n  * I got paid yesterday\n  * He got fired\n  * They got married\n\n💡 **Remember**:\n- By-phrase only if necessary\n- Reporting structures formal\n- Get passive informal"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "form",
+          "question": "Change to passive: 'They build houses.' →",
+          "options": [
+            "Houses builds",
+            "Houses are built",
+            "Houses were built",
+            "Houses have built"
+          ],
+          "correctIndex": 1,
+          "hint": "Use present simple passive: are + past participle."
+        },
+        {
+          "type": "tense",
+          "question": "Complete: 'The letter ____ (send) yesterday.'",
+          "options": [
+            "was sent",
+            "is sent",
+            "has been sent",
+            "had been sent"
+          ],
+          "correctIndex": 0,
+          "hint": "Use past simple passive for completed actions in the past."
+        },
+        {
+          "type": "modal",
+          "question": "Choose the correct passive form: 'This work ____ immediately.'",
+          "options": [
+            "must do",
+            "must be done",
+            "must be did",
+            "must been done"
+          ],
+          "correctIndex": 1,
+          "hint": "Modal verbs in passive: modal + be + past participle."
+        },
+        {
+          "type": "by_phrase",
+          "question": "Which sentence needs a by-phrase?",
+          "options": [
+            "The window was broken",
+            "The house was cleaned",
+            "Romeo and Juliet was written",
+            "Mistakes were made"
+          ],
+          "correctIndex": 2,
+          "hint": "Include by-phrase when the agent (Shakespeare) is important."
+        },
+        {
+          "type": "continuous",
+          "question": "Complete: 'The house ____ (paint) right now.'",
+          "options": [
+            "is painted",
+            "is being painted",
+            "has been painted",
+            "was being painted"
+          ],
+          "correctIndex": 1,
+          "hint": "Use present continuous passive for actions happening now."
+        },
+        {
+          "type": "reporting",
+          "question": "Change to passive reporting: 'People say he is rich.' →",
+          "options": [
+            "He says to be rich",
+            "He is said to be rich",
+            "It says he is rich",
+            "He is saying to be rich"
+          ],
+          "correctIndex": 1,
+          "hint": "Use 'is said to be' for passive reporting structures."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Reported Speech: Statements, Questions, and Commands",
+      "description": "🗣️ Master Reported Speech in English! Essential for relaying what others have said.\n\n🎯 In this lesson, you'll learn:\n- How to report statements and questions\n- Tense changes in reported speech\n- Reporting commands and requests\n- Time and place changes\n\n⭐️ Level: Upper-Intermediate\n\n⏰ Recommended study time: 2-3 hours",
+      "language": "English",
+      "difficulty": 3,
+      "points": 150,
+      "sections": [
+        {
+          "title": "Reporting Statements",
+          "content": "# Basic Rules for Reported Speech 🗣️\n\n1. **Tense Changes**:\n\na) Present → Past:\n- Present Simple → Past Simple\n  * 'I work here' → She said she worked there\n- Present Continuous → Past Continuous\n  * 'I am studying' → He said he was studying\n- Present Perfect → Past Perfect\n  * 'I have finished' → She said she had finished\n\nb) Past → Past Perfect:\n- Past Simple → Past Perfect\n  * 'I went there' → He said he had gone there\n- Past Continuous → Past Perfect Continuous\n  * 'I was working' → She said she had been working\n\n2. **Modal Verb Changes**:\n- will → would\n- can → could\n- may → might\n- must → had to\n- shall → should\n\n💡 **Remember**:\n- Change tenses when reporting past events\n- Keep tense if still true\n- Consider time of reporting"
+        },
+        {
+          "title": "Time and Place Changes",
+          "content": "# Changing Time and Place References 📅\n\n1. **Time Expression Changes**:\n\na) Present → Past:\n- now → then\n- today → that day\n- tonight → that night\n- yesterday → the day before\n- tomorrow → the next day\n- next week → the following week\n- last week → the previous week\n\nb) Examples:\n- 'I'm busy now' → She said she was busy then\n- 'I'll do it tomorrow' → He said he would do it the next day\n- 'I saw them yesterday' → She said she had seen them the day before\n\n2. **Place Expression Changes**:\n\na) Location Words:\n- here → there\n- this → that\n- these → those\n- come → go\n- bring → take\n\nb) Examples:\n- 'Come here' → She told me to go there\n- 'I like this book' → He said he liked that book\n\n💡 **Usage Tips**:\n- Change expressions logically\n- Consider speaker's position\n- Maintain meaning clarity"
+        },
+        {
+          "title": "Reporting Questions",
+          "content": "# Converting Questions to Reported Speech ❓\n\n1. **Yes/No Questions**:\n\na) Basic Structure:\n- ask + if/whether + subject + verb\n  * 'Are you ready?' → She asked if I was ready\n  * 'Do you work here?' → He asked whether I worked there\n\nb) Examples with Tense Changes:\n- 'Have you finished?' → She asked if I had finished\n- 'Will you help me?' → He asked if I would help him\n- 'Can you swim?' → She asked if I could swim\n\n2. **Wh- Questions**:\n\na) Basic Structure:\n- ask + question word + subject + verb\n  * 'Where do you live?' → He asked where I lived\n  * 'What are you doing?' → She asked what I was doing\n\nb) Examples with Different Question Words:\n- 'Why did you leave?' → He asked why I had left\n- 'When will you arrive?' → She asked when I would arrive\n- 'How can I help?' → He asked how he could help\n\n💡 **Important Note**:\n- No question form in reported speech\n- Keep question words\n- Change pronouns as needed"
+        },
+        {
+          "title": "Reporting Commands and Requests",
+          "content": "# Converting Commands and Requests 📢\n\n1. **Basic Commands**:\n\na) Structure:\n- tell + object + to + infinitive\n  * 'Stop!' → He told me to stop\n  * 'Be quiet!' → She told us to be quiet\n\nb) Negative Commands:\n- tell + object + not to + infinitive\n  * 'Don't move!' → He told me not to move\n  * 'Don't be late!' → She told us not to be late\n\n2. **Polite Requests**:\n\na) With 'Please':\n- ask + object + to + infinitive\n  * 'Please help me' → She asked me to help her\n  * 'Please wait here' → He asked me to wait there\n\nb) With Modal Verbs:\n- ask + object + if + subject + modal\n  * 'Could you help me?' → She asked if I could help her\n  * 'Would you mind waiting?' → He asked if I would mind waiting\n\n3. **Suggestions**:\n\na) With 'Let's':\n- suggest + verb-ing\n  * 'Let's go!' → He suggested going\n  * 'Let's try again' → She suggested trying again\n\n💡 **Remember**:\n- Use 'tell' for commands\n- Use 'ask' for requests\n- Use 'suggest' for suggestions"
+        }
+      ],
+      "quiz": [
+        {
+          "type": "tense_change",
+          "question": "Change to reported speech: 'I am working.' → He said...",
+          "options": [
+            "he is working",
+            "he was working",
+            "he has been working",
+            "he works"
+          ],
+          "correctIndex": 1,
+          "hint": "Present Continuous changes to Past Continuous in reported speech."
+        },
+        {
+          "type": "time_expressions",
+          "question": "Change: 'I'll see you tomorrow.' → She said...",
+          "options": [
+            "she would see me tomorrow",
+            "she will see me the next day",
+            "she would see me the next day",
+            "she will see me tomorrow"
+          ],
+          "correctIndex": 2,
+          "hint": "'Tomorrow' becomes 'the next day' and 'will' becomes 'would'."
+        },
+        {
+          "type": "questions",
+          "question": "Report: 'Do you speak English?' →",
+          "options": [
+            "He asked do I speak English",
+            "He asked if I spoke English",
+            "He asked if I speak English",
+            "He asked did I speak English"
+          ],
+          "correctIndex": 1,
+          "hint": "Yes/No questions use 'if/whether' and change tense in reported speech."
+        },
+        {
+          "type": "commands",
+          "question": "Report: 'Stop talking!' →",
+          "options": [
+            "He said to stop talking",
+            "He told me stop talking",
+            "He told me to stop talking",
+            "He told to stop talking"
+          ],
+          "correctIndex": 2,
+          "hint": "Commands use 'tell + object + to + infinitive'."
+        },
+        {
+          "type": "modal_verbs",
+          "question": "Change: 'I can help you.' → She said...",
+          "options": [
+            "she can help me",
+            "she could help me",
+            "she can helped me",
+            "she could helped me"
+          ],
+          "correctIndex": 1,
+          "hint": "'Can' changes to 'could' in reported speech."
+        },
+        {
+          "type": "mixed",
+          "question": "Report: 'Where are you going?' →",
+          "options": [
+            "He asked where was I going",
+            "He asked where I was going",
+            "He asked where am I going",
+            "He asked where I am going"
+          ],
+          "correctIndex": 1,
+          "hint": "Wh-questions keep the question word but change word order and tense."
+        }
+      ]
+    }
+  ]
+}

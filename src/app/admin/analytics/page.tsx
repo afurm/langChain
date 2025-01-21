@@ -2,8 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { useLessons, useProfile } from '@/hooks/useContracts';
-import { Lesson } from '@/types/contracts';
 import {
   ChartBarIcon,
   UsersIcon,
@@ -24,7 +22,6 @@ interface Analytics {
 }
 
 export default function AnalyticsPage() {
-  const { totalLessons, getLessonDetails } = useLessons();
   const [analytics, setAnalytics] = useState<Analytics>({
     totalUsers: 0,
     totalLessonsCompleted: 0,
@@ -38,67 +35,46 @@ export default function AnalyticsPage() {
   });
   const [loading, setLoading] = useState(true);
 
+  // Mock data for demonstration
   useEffect(() => {
-    const fetchAnalytics = async () => {
-      try {
-        // Fetch lesson details
-        const lessonPromises = Array.from({ length: totalLessons }, (_, i) =>
-          getLessonDetails(i)
-        );
-        const lessons = await Promise.all(lessonPromises);
-
-        // Calculate completion rates by difficulty
-        const completionRates = lessons.reduce((acc, lesson) => {
-          acc[lesson.difficulty] = (acc[lesson.difficulty] || 0) + 1;
-          return acc;
-        }, {} as Record<number, number>);
-
-        // Mock data - replace with real data from contracts
-        setAnalytics({
-          totalUsers: 150,
-          totalLessonsCompleted: 450,
-          averageScore: 85,
-          achievementsUnlocked: 280,
-          completionRates,
-          userProgress: {
-            labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
-            data: [120, 180, 250, 450],
-          },
-        });
-      } catch (error) {
-        console.error('Error fetching analytics:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchAnalytics();
-  }, [totalLessons, getLessonDetails]);
+    // Simulated analytics data
+    setAnalytics({
+      totalUsers: 150,
+      totalLessonsCompleted: 450,
+      averageScore: 85,
+      achievementsUnlocked: 230,
+      completionRates: {
+        1: 75,
+        2: 60,
+        3: 45,
+      },
+      userProgress: {
+        labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
+        data: [10, 25, 45, 60],
+      },
+    });
+  }, []);
 
   const stats = [
     {
       icon: UsersIcon,
-      label: 'Total Users',
       value: analytics.totalUsers,
-      color: 'from-blue-500 to-blue-600',
+      label: 'Active Users',
     },
     {
       icon: BookOpenIcon,
-      label: 'Lessons Completed',
       value: analytics.totalLessonsCompleted,
-      color: 'from-green-500 to-green-600',
+      label: 'Lessons Completed',
     },
     {
       icon: ChartBarIcon,
-      label: 'Average Score',
       value: `${analytics.averageScore}%`,
-      color: 'from-purple-500 to-purple-600',
+      label: 'Average Score',
     },
     {
       icon: TrophyIcon,
-      label: 'Achievements Unlocked',
       value: analytics.achievementsUnlocked,
-      color: 'from-yellow-500 to-yellow-600',
+      label: 'Achievements Unlocked',
     },
   ];
 
@@ -118,32 +94,27 @@ export default function AnalyticsPage() {
   }
 
   return (
-    <div className="space-y-8 p-8">
+    <div className="space-y-8">
       <h1 className="text-3xl font-bold">Analytics Dashboard</h1>
-
+      
       {/* Stats Grid */}
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {stats.map((stat, index) => (
           <motion.div
-            key={stat.label}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className={`bg-gradient-to-br ${stat.color} rounded-lg p-6`}
+            key={index}
+            className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-sm border border-gray-700"
           >
             <div className="flex items-center gap-4">
-              <div className="p-3 bg-white/10 rounded-lg">
-                <stat.icon className="w-6 h-6 text-white" />
-              </div>
+              <stat.icon className="w-8 h-8 text-blue-500" />
               <div>
-                <p className="text-sm text-white/80">{stat.label}</p>
-                <p className="text-2xl font-bold text-white">{stat.value}</p>
+                <div className="text-2xl font-bold">{stat.value}</div>
+                <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
-
+      
       {/* Charts */}
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Completion Rates by Difficulty */}
@@ -152,20 +123,16 @@ export default function AnalyticsPage() {
             Completion Rates by Difficulty
           </h2>
           <div className="space-y-4">
-            {Object.entries(analytics.completionRates).map(([difficulty, count]) => (
-              <div key={difficulty}>
-                <div className="flex justify-between text-sm mb-1">
+            {Object.entries(analytics.completionRates).map(([difficulty, rate]) => (
+              <div key={difficulty} className="space-y-2">
+                <div className="flex justify-between text-sm">
                   <span>Level {difficulty}</span>
-                  <span>{count} lessons</span>
+                  <span>{rate}%</span>
                 </div>
                 <div className="h-2 bg-gray-700 rounded-full overflow-hidden">
-                  <motion.div
-                    className="h-full bg-blue-500"
-                    initial={{ width: 0 }}
-                    animate={{
-                      width: `${(count / totalLessons) * 100}%`,
-                    }}
-                    transition={{ duration: 0.5 }}
+                  <div
+                    className="h-full bg-blue-500 rounded-full"
+                    style={{ width: `${rate}%` }}
                   />
                 </div>
               </div>

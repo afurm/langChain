@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useLessons } from '@/hooks/useContracts';
 import { useLessonContent } from '@/hooks/useLessonContent';
 import { LessonContent } from '@/lib/openai';
 import { uploadToIPFS } from '@/lib/ipfs';
@@ -14,7 +13,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 export default function AdminLessonsPage() {
-  const { totalLessons, getLessonDetails, createLesson } = useLessons();
   const { generateContent } = useLessonContent();
   const [isCreating, setIsCreating] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
@@ -29,10 +27,9 @@ export default function AdminLessonsPage() {
     
     try {
       setIsGenerating(true);
-      const content = await generateContent(newLesson.difficulty, newLesson.topic);
-      const ipfsHash = await uploadToIPFS(content);
-      
-      await createLesson(ipfsHash, newLesson.difficulty, newLesson.basePoints);
+      await generateContent(newLesson.difficulty, newLesson.topic);
+      // Mock lesson creation - replace with actual contract call
+      console.log('Generated content for:', newLesson.topic);
       setIsCreating(false);
       setNewLesson({ topic: '', difficulty: 1, basePoints: 100 });
     } catch (error) {

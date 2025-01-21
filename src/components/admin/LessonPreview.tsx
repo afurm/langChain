@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Lesson } from '@/types/contracts';
+import { motion, AnimatePresence } from 'framer-motion';
+import type { Question } from '@/types/quiz';
 import { LessonContent } from '@/lib/openai';
 import { getFromIPFS } from '@/lib/ipfs';
 import {
@@ -13,6 +13,17 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import ReactMarkdown from 'react-markdown';
+
+interface Lesson {
+  id: number;
+  title: string;
+  description: string;
+  language: string;
+  difficulty: number;
+  points: number;
+  contentHash: string;
+  basePoints: number;
+}
 
 interface LessonPreviewProps {
   lesson: Lesson;
@@ -178,7 +189,12 @@ export default function LessonPreview({
                 ) : content ? (
                   <div className="prose prose-invert max-w-none">
                     <h2 className="text-xl font-bold mb-4">{content.title}</h2>
-                    <ReactMarkdown>{content.content}</ReactMarkdown>
+                    {content.sections.map((section, index) => (
+                      <div key={index} className="mb-6">
+                        <h3 className="text-lg font-semibold mb-2">{section.title}</h3>
+                        <ReactMarkdown>{section.content}</ReactMarkdown>
+                      </div>
+                    ))}
                     
                     <div className="mt-6">
                       <h3 className="text-lg font-semibold mb-3">Quiz Questions</h3>
@@ -197,7 +213,6 @@ export default function LessonPreview({
                                   }
                                 >
                                   {option}
-                                  {j === q.correctIndex && ' ✓'}
                                 </li>
                               ))}
                             </ul>

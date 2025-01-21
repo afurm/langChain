@@ -1,9 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import LessonCard from '@/components/lessons/LessonCard';
 import LoadingSkeleton from '@/components/ui/LoadingSkeleton';
+import { useProgress } from '@/hooks/useProgress';
+import lessonsData from '@/data/lessonsData.json';
+import type { Question } from '@/types/quiz';
 import {
   FunnelIcon,
   ArrowsUpDownIcon,
@@ -14,63 +17,40 @@ interface Lesson {
   id: number;
   title: string;
   description: string;
+  language: string;
   difficulty: number;
   points: number;
-  createdAt: Date;
+  sections: {
+    title: string;
+    content: string;
+  }[];
+  quiz: Question[];
 }
 
 type SortOption = 'newest' | 'oldest' | 'points-high' | 'points-low';
 type FilterOption = 'all' | '1' | '2' | '3' | 'completed' | 'incomplete';
 
-// Mock data for development
-const MOCK_LESSONS: Lesson[] = [
-  {
-    id: 1,
-    title: "Basic Greetings",
-    description: "Learn common greetings and introductions",
-    difficulty: 1,
-    points: 100,
-    createdAt: new Date("2024-02-01")
-  },
-  {
-    id: 2,
-    title: "Present Tense",
-    description: "Master the present tense in everyday conversations",
-    difficulty: 2,
-    points: 150,
-    createdAt: new Date("2024-02-05")
-  },
-  {
-    id: 3,
-    title: "Advanced Grammar",
-    description: "Complex grammar structures and usage",
-    difficulty: 3,
-    points: 200,
-    createdAt: new Date("2024-02-10")
-  }
-];
-
 export default function LessonsPage() {
-  const [lessons] = useState<Lesson[]>(MOCK_LESSONS);
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState<SortOption>('newest');
-  const [filterBy, setFilterBy] = useState<FilterOption>('all');
-  const [completedLessons] = useState<Set<number>>(new Set());
+  const [filter, setFilter] = useState<FilterOption>('all');
+  const { progress, isLessonCompleted } = useProgress();
 
+  const lessons = lessonsData.lessons as Lesson[];
   const filteredAndSortedLessons = lessons
     .filter(lesson => {
-      if (filterBy === 'all') return true;
-      if (filterBy === 'completed') return completedLessons.has(lesson.id);
-      if (filterBy === 'incomplete') return !completedLessons.has(lesson.id);
-      return lesson.difficulty.toString() === filterBy;
+      if (filter === 'all') return true;
+      if (filter === 'completed') return isLessonCompleted(lesson.id);
+      if (filter === 'incomplete') return !isLessonCompleted(lesson.id);
+      return lesson.difficulty.toString() === filter;
     })
     .sort((a, b) => {
       switch (sortBy) {
         case 'newest':
-          return b.createdAt.getTime() - a.createdAt.getTime();
+          return b.id - a.id;
         case 'oldest':
-          return a.createdAt.getTime() - b.createdAt.getTime();
+          return a.id - b.id;
         case 'points-high':
           return b.points - a.points;
         case 'points-low':
@@ -91,7 +71,7 @@ export default function LessonsPage() {
         <div>
           <h1 className="text-3xl font-bold mb-2">Available Lessons</h1>
           <p className="text-gray-400">
-            Completed: {completedLessons.size} / {lessons.length}
+            Completed: {progress.completedLessons.length} / {lessonsData.lessons.length}
           </p>
         </div>
 
@@ -109,18 +89,36 @@ export default function LessonsPage() {
           </div>
 
           <div className="flex gap-2">
-            <select
-              value={filterBy}
-              onChange={(e) => setFilterBy(e.target.value as FilterOption)}
-              className="bg-gray-800 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            <button
+              onClick={() => setFilter('all')}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                filter === 'all'
+                  ? 'bg-blue-500 text-white'
+                  : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+              }`}
             >
-              <option value="all">All Levels</option>
-              <option value="1">Beginner</option>
-              <option value="2">Intermediate</option>
-              <option value="3">Advanced</option>
-              <option value="completed">Completed</option>
-              <option value="incomplete">Incomplete</option>
-            </select>
+              All
+            </button>
+            <button
+              onClick={() => setFilter('completed')}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                filter === 'completed'
+                  ? 'bg-blue-500 text-white'
+                  : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+              }`}
+            >
+              Completed
+            </button>
+            <button
+              onClick={() => setFilter('incomplete')}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                filter === 'incomplete'
+                  ? 'bg-blue-500 text-white'
+                  : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+              }`}
+            >
+              Incomplete
+            </button>
 
             <select
               value={sortBy}
@@ -153,7 +151,7 @@ export default function LessonsPage() {
               key={lesson.id}
               lesson={lesson}
               lessonId={lesson.id}
-              isCompleted={completedLessons.has(lesson.id)}
+              isCompleted={isLessonCompleted(lesson.id)}
             />
           ))}
         </motion.div>

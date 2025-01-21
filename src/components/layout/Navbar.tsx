@@ -92,20 +92,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4">
-            {isConnected && profile && (
+            {isConnected && (
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="hidden md:block"
               >
-                <div className="px-4 py-1 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700">
-                  <span className="text-sm text-gray-300">
-                    Welcome, {profile.username}
-                  </span>
-                </div>
+                <ConnectKitButton />
               </motion.div>
             )}
-            <ConnectKitButton />
             
             {/* Mobile Menu Button */}
             <button
